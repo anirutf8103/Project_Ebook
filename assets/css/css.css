@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    /* background-color: #F5F6F8; */
+    background-color: antiquewhite;
+}
+
+.m-top {
+    margin-top: 50px;
+}
+
+@media print {
+    .hid {
+        display: none;
+        /* ซ่อน  */
+    }
+}
+
+.bgMainNavbar {
+    background-color: white;
+}
+
+.btnbell {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.bradeNoti {
+    border: 2px solid white;
+}
+
+.AvatarProfile1 {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.AvatarProfile2 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.borderRD15 {
+    border-radius: 15px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.t-al-l {
+    text-align: left;
+}
+
+.t-al-r {
+    text-align: right;
+}
+
+.t-al-c {
+    text-align: center;
+}
+
+.tdcrtn {
+    text-decoration: none;
+}
+
+.textLimit1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.textLimit3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+@media (max-width: 768px) {
+    .text-b {
+        font-size: 12px;
+    }
+
+    .text-s {
+        font-size: 6px;
+    }
+}
+
+.imageLogo {
+    width: 150px;
+}
+
+.bg-orange {
+    background-color: #fa6000;
+    background-image: linear-gradient(349deg, #fa6000 0%, #ff9b5b 100%);
+}
+
+.c-w {
+    color: white;
+}
+
+.this_camera {
+    border: 10px solid #16734720;
+}
+
+.navbar_color {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+
+img {
+    width: 100%;
+}
+
+.card-glass {
+    background-color: #142535;
+    height: 100vh;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* CSS สำหรับเลขหน้า */
+#currentPage,
+#totalPages {
+    color: white;
+}
+
+.number_page {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background-color: #1425351c;
+}
+
+.card_game {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    /* จัดกึ่งกลางในแนวตั้ง */
+    justify-content: center;
+    /* จัดกึ่งกลางในแนวนอน */
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+}
+
+.floatingactionBTN {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border-radius: 50px;
+}
+
+.offcanvas_book {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.menu_home {
+    color: white;
+    text-decoration: none;
+}
+
+.menu_home_col {
+    text-align: center;
+    background-color: #FBADAF;
+    border-radius: 15px;
+}
+
+.menu_home_col:hover {
+    color: #d33f44;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.image_top_1 {
+    /* width: 170px; */
+    /* height: 170px; */
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    /* border: 3px solid #8ED436; */
+}
+
+.image_top_sub_1 {
+    /* width: 170px; */
+    /* height: 170px; */
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    object-fit: cover;
+    align-items: center;
+    /* border: 3px solid #8ED436; */
+}
+
+.cardShow {
+    display: flex;
+    align-items: center;
+    /* จัดกึ่งกลางในแนวตั้ง */
+    justify-content: center;
+    /* จัดกึ่งกลางในแนวนอน */
+}
+
+.col_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_top_1:hover {
+    border: 4px solid #8ED436;
+}
+
+.fix_btn_1 {
+    position: absolute;
+    top: 70%;
+    left: 65%;
+}
+
+.image-container {
+    position: relative;
+    /* display: inline-block; */
+    margin-bottom: 0%;
+}
+
+.image-container img {
+    /* display: block; */
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+
+.image-container .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    animation-name: slide-up;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+    0% {
+        top: 50%;
+        padding: 5px;
+    }
+    100% {
+        top: 0%;
+        padding: 15px;
+    }
+}
+
+.iframe1001{
+    width: 100%;
+    height: 100vw;
+}
+
+.iframe1002{
+    width: 100%;
+    height: 315px;
+}

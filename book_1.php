@@ -38,7 +38,8 @@
     foreach ($files as $file) {
         if (
             $file !== '.' && $file !== '..' && $file !== '.DS_Store' && $file !== '04.png' &&
-            $file !== '07.png' && $file !== '09.png' && $file !== '10.png' && $file !== '11.png'
+            $file !== '07.png' && $file !== '09.png' && $file !== '10.png' && $file !== '11.png' &&
+            $file !== '14.png' && $file !== '18.png'
         ) {
             array_push($Array_Push_file, $file);
         }
@@ -54,6 +55,10 @@
     array_splice($Array_Push_file, 6, 0, "show_game_1_1004");
     // แทรก "show_game_1_1005"
     array_splice($Array_Push_file, 7, 0, "show_game_1_1005");
+    // แทรก "show_game_1_1006"
+    array_splice($Array_Push_file, 9, 0, "show_game_1_1006");
+    // แทรก "show_game_1_1007"
+    array_splice($Array_Push_file, 12, 0, "show_game_1_1007");
     ?>
 
     <div class="offcanvas offcanvas-top offcanvas_book" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
@@ -118,40 +123,116 @@
     </div>
 
     <!-- Pages Tap -->
-    <div class="bottom-menu active">
+    <!-- <div class="bottom-menu active">
         <div class="slideshow">
 
         </div>
-    </div>
+    </div> -->
 
     <!-- ***************************** -->
     <!-- <center>
-        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/10.png');">
-            <div class="card-body">
-                <div class="row">
-
-                    <div class="col-4 card_game_1005">
-                        <div class="card card-body"></div>
+        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/11.png');">
+            <div class="card-body" style="padding: 0px;">
+                <div class="row" id="row_game_1005">
+                    <div class="col-3 col_game_5">
+                        <a type="button" onclick="open_label('1')" id="this_label_1">
+                            <div class="card card_game_1005">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">1</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-4 card_game_1005">
-                        <div class="card card-body"></div>
+                    <div class="col-3 col_game_5">
+                        <a type="button" onclick="open_label('2')" id="this_label_2">
+                            <div class="card card_game_1005">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">2</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-4 card_game_1005">
-                        <div class="card card-body"></div>
+                    <div class="col-3 col_game_5">
+                        <a type="button" onclick="open_label('3')" id="this_label_3">
+                            <div class="card card_game_1005">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">3</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-4 card_game_1005">
-                        <div class="card card-body"></div>
+                    <div class="col-3 col_game_5">
+                        <a type="button" onclick="open_label('4')" id="this_label_4">
+                            <div class="card card_game_1005">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">4</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-4 card_game_1005">
-                        <div class="card card-body"></div>
+                    <div class="col-3 col_game_5">
+                        <a type="button" onclick="open_label('5')" id="this_label_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">5</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-4 card_game_1005">
-                        <div class="card card-body"></div>
+                    <div class="col-3 col_game_5">
+                        <a type="button" onclick="open_label('6')" id="this_label_6">
+                            <div class="card card_game_1005">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">6</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="col-12 card_game_1005">
-                        <div class="card card-body"></div>
+                    <div class="col-3 col_game_5">
+                        <a type="button" onclick="open_label('7')" id="this_label_7">
+                            <div class="card card_game_1005">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">7</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-
+                    <div class="col-3 col_game_5">
+                        <a type="button" onclick="open_label('8')" id="this_label_8">
+                            <div class="card card_game_1005">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">8</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col_game_5">
+                        <a type="button" onclick="open_label('9')" id="this_label_9">
+                            <div class="card card_game_1005_re">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <center>
+                                        <h3 class="text_Label_1005">เฉลย</h3>
+                                    </center>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -433,60 +514,149 @@
                 <div class="card-body" style="padding: 0px;">
                     <div class="row" id="row_game_1005">
                         <div class="col-3 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('1')" id="this_label_1">
+                                <div class="card card_game_1005">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">1</h3>
+                                        </center>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-3 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('2')" id="this_label_2">
+                                <div class="card card_game_1005">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">2</h3>
+                                        </center>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-3 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('3')" id="this_label_3">
+                                <div class="card card_game_1005">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">3</h3>
+                                        </center>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-3 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('4')" id="this_label_4">
+                                <div class="card card_game_1005">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">4</h3>
+                                        </center>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-3 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('5')" id="this_label_5">
+                                <div class="card card_game_1005">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">5</h3>
+                                        </center>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-3 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('6')" id="this_label_6">
+                                <div class="card card_game_1005">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">6</h3>
+                                        </center>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-3 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('7')" id="this_label_7">
+                                <div class="card card_game_1005">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">7</h3>
+                                        </center>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-3 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('8')" id="this_label_8">
+                                <div class="card card_game_1005">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">8</h3>
+                                        </center>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-12 col_game_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body">
+                            <a type="button" class="w-100 h-100 text-dark" onclick="open_label('9')" id="this_label_9">
+                                <div class="card card_game_1005_re">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <center>
+                                            <h3 class="text_Label_1005">เฉลย</h3>
+                                        </center>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        `;
+
+        var show_game_1_1006 = `
+        <center>
+            <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/14.png');">
+                <div class="card-body">
+                    <a type="button" class="fix_btn_6001" data-bs-toggle="modal" data-bs-target="#Modal6001">
+                        <span class="iconify" data-icon="pajamas:question" style="color: red;" data-width="45" data-height="45"></span>
+                    </a>
+                    <div class="modal fade" id="Modal6001" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><span class="iconify" data-icon="pajamas:question"></span> คำถามชวนคิด</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="t-al-l">
+                                        <center>
+                                            <h3>นักเรียนคิดว่า เพราะเหตุใดไชชายถึงได้ร่ำรวยเป็นมหาเศรษฐี</h3>
+                                        </center>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </center>
+        `;
+
+        var show_game_1_1007 = `
+        <center>
+            <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/18.png');">
+                <div class="card-body">
+                    <div class="money-rain" id="money-rain" hidden>
+                        <!-- ตัวองค์ประกอบอื่น ๆ ที่คุณต้องการให้เหมือนเงินตกลงมาจากฟ้า -->
+                    </div>
+                    <a type="button" class="fix_btn_6002" onclick="On_Money_Drop()">
+                    <span class="iconify" data-icon="emojione:money-bag" data-width="45" data-height="45"></span>
+                    </a>
                 </div>
             </div>
         </center>
@@ -557,6 +727,18 @@
                     setCardHeight();
                     window.addEventListener('resize', setCardHeight1005);
                     setCardHeight1005();
+                } else if (images[currentImageIndex] === 'show_game_1_1006') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1006;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1007') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1007;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
                 } else {
                     currentImage.src = './assets/image_1/' + images[currentImageIndex];
                     cardShow.innerHTML = ''; // ลบ HTML ของแคร์ทิ้งเมื่อเป็นรูปภาพที่ไม่ใช่ "show_game_1_1001"
@@ -621,6 +803,18 @@
                     setCardHeight();
                     window.addEventListener('resize', setCardHeight1005);
                     setCardHeight1005();
+                } else if (images[currentImageIndex] === 'show_game_1_1006') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1006;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1007') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1007;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
                 } else {
                     currentImage.src = './assets/image_1/' + images[currentImageIndex];
                     cardShow.innerHTML = ''; // ลบ HTML ของแคร์ทิ้งเมื่อเป็นรูปภาพที่ไม่ใช่ "show_game_1_1001"
@@ -694,6 +888,25 @@
                 document.getElementById("option_game_1_1005").hidden = true;
                 document.getElementById("result_1_1005").hidden = false;
             }
+        }
+
+        function open_label(value) {
+            if (value >= 1 && value <= 8) {
+                document.getElementById("this_label_" + value).hidden = true;
+            } else {
+                for (let index = 1; index <= 9; index++) {
+                    document.getElementById("this_label_" + index).hidden = true;
+                }
+            }
+        }
+
+        function On_Money_Drop() {
+            var money = document.getElementById("money-rain").hidden = false;
+            const myTimeout = setTimeout(myGreeting, 3000);
+        }
+
+        function myGreeting() {
+            document.getElementById("money-rain").hidden = true;
         }
     </script>
 

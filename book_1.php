@@ -36,15 +36,24 @@
 
     // วนลูปเพื่อแสดงรายการไฟล์ที่ดึงมา
     foreach ($files as $file) {
-        if ($file !== '.' && $file !== '..' && $file !== '.DS_Store' && $file !== '04.png' && $file !== '07.png') {
+        if (
+            $file !== '.' && $file !== '..' && $file !== '.DS_Store' && $file !== '04.png' &&
+            $file !== '07.png' && $file !== '09.png' && $file !== '10.png' && $file !== '11.png'
+        ) {
             array_push($Array_Push_file, $file);
         }
     }
 
     // แทรก "show_game_1_1001"
     array_splice($Array_Push_file, 2, 0, "show_game_1_1001");
-    // แทรก "show_game_1_1001"
+    // แทรก "show_game_1_1002"
     array_splice($Array_Push_file, 4, 0, "show_game_1_1002");
+    // แทรก "show_game_1_1003"
+    array_splice($Array_Push_file, 5, 0, "show_game_1_1003");
+    // แทรก "show_game_1_1004"
+    array_splice($Array_Push_file, 6, 0, "show_game_1_1004");
+    // แทรก "show_game_1_1005"
+    array_splice($Array_Push_file, 7, 0, "show_game_1_1005");
     ?>
 
     <div class="offcanvas offcanvas-top offcanvas_book" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
@@ -108,8 +117,45 @@
         </div>
     </div>
 
-    <!-- ***************************** -->
+    <!-- Pages Tap -->
+    <div class="bottom-menu active">
+        <div class="slideshow">
 
+        </div>
+    </div>
+
+    <!-- ***************************** -->
+    <!-- <center>
+        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/10.png');">
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-4 card_game_1005">
+                        <div class="card card-body"></div>
+                    </div>
+                    <div class="col-4 card_game_1005">
+                        <div class="card card-body"></div>
+                    </div>
+                    <div class="col-4 card_game_1005">
+                        <div class="card card-body"></div>
+                    </div>
+                    <div class="col-4 card_game_1005">
+                        <div class="card card-body"></div>
+                    </div>
+                    <div class="col-4 card_game_1005">
+                        <div class="card card-body"></div>
+                    </div>
+                    <div class="col-4 card_game_1005">
+                        <div class="card card-body"></div>
+                    </div>
+                    <div class="col-12 card_game_1005">
+                        <div class="card card-body"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </center> -->
     <!-- ***************************** -->
 
     <script>
@@ -306,7 +352,141 @@
         <center>
             <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/07.png');">
                 <div class="card-body">
-                    
+                    <a type="button" class="fix_btn_2" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                        <span class="iconify" data-icon="mdi:user-help" style="color: red;" data-width="45" data-height="45"></span>
+                    </a>
+                    <div class="modal fade" id="Modal2001" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><span class="iconify" data-icon="mdi:user-help"></span> ความหมายของหมอเสน่ห์</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="t-al-l">
+                                        <center>
+                                            <h3>น. ผู้ที่เชื่อกันว่ารู้วิชาอาคมทำให้คนรักกันหรือชังกัน.</h3>
+                                        </center>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        `;
+
+        var show_game_1_1003 = `
+        <center>
+            <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/09.png');">
+                <div class="card-body">
+                    <a type="button" class="fix_btn_3" data-bs-toggle="modal" data-bs-target="#Modal3001">
+                        <span class="iconify" data-icon="logos:imagemin" data-width="45" data-height="45"></span>
+                    </a>
+                    <div class="modal fade" id="Modal3001" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><span class="iconify" data-icon="logos:imagemin"></span> ภาพกล้วยสองปลี</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="./assets/image_1_sub/2001.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        `;
+
+        var show_game_1_1004 = `
+        <center>
+            <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/10.png');">
+                <div class="card-body">
+                    <a type="button" class="fix_btn_4" data-bs-toggle="modal" data-bs-target="#Modal4001">
+                        <span class="iconify" data-icon="pajamas:question" data-width="45" data-height="45"></span>
+                    </a>
+                    <div class="modal fade" id="Modal4001" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"><span class="iconify" data-icon="pajamas:question"></span> คำถามชวนคิด</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>นักเรียนคิดว่า ไชชายจะทำอย่างไรต่อไป ?</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+        `;
+
+        var show_game_1_1005 = `
+        <center>
+            <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/11.png');">
+                <div class="card-body" style="padding: 0px;">
+                    <div class="row" id="row_game_1005">
+                        <div class="col-3 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col_game_5">
+                            <div class="card card_game_1005">
+                                <div class="card-body">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </center>
@@ -357,6 +537,26 @@
                     cardShow.style.minWidth = '100%';
                     window.addEventListener('resize', setCardHeight);
                     setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1003') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1003;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1004') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1004;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1005') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1005;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                    window.addEventListener('resize', setCardHeight1005);
+                    setCardHeight1005();
                 } else {
                     currentImage.src = './assets/image_1/' + images[currentImageIndex];
                     cardShow.innerHTML = ''; // ลบ HTML ของแคร์ทิ้งเมื่อเป็นรูปภาพที่ไม่ใช่ "show_game_1_1001"
@@ -401,6 +601,26 @@
                     cardShow.style.minWidth = '100%';
                     window.addEventListener('resize', setCardHeight);
                     setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1003') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1003;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1004') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1004;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1005') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1005;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                    window.addEventListener('resize', setCardHeight1005);
+                    setCardHeight1005();
                 } else {
                     currentImage.src = './assets/image_1/' + images[currentImageIndex];
                     cardShow.innerHTML = ''; // ลบ HTML ของแคร์ทิ้งเมื่อเป็นรูปภาพที่ไม่ใช่ "show_game_1_1001"
@@ -438,6 +658,22 @@
                 card.style.height = cardHeight + 'px';
             };
         }
+
+        function setCardHeight1005() {
+            var card = document.getElementById('cardElement');
+            var row = document.getElementById('row_game_1005');
+            var backgroundImage = new Image();
+            backgroundImage.src = card.style.backgroundImage.slice(4, -1).replace(/"/g, '');
+
+            backgroundImage.onload = function() {
+                var cardWidth = card.offsetWidth;
+                var imageWidth = backgroundImage.width;
+                var imageHeight = backgroundImage.height;
+                var cardHeight = (cardWidth / imageWidth) * imageHeight;
+
+                row.style.height = cardHeight + 'px';
+            };
+        }
     </script>
 
     <script>
@@ -461,6 +697,72 @@
         }
     </script>
 
+    <!-- JS Pages Tap -->
+    <script>
+        var bottomMenu = document.querySelector('.bottom-menu');
+        var slideshow = document.querySelector('.slideshow');
+        var currentImage = document.querySelector('#currentImage');
+
+        var images = <?php echo json_encode($Array_Push_file); ?>;
+
+        // สร้างสไลด์รูปภาพ
+        images.forEach(function(item) {
+            var img = document.createElement('img');
+
+            // กำหนดคลาส 'slideshow-container' ให้กับ slideshow
+            slideshow.classList.add('slideshow-container');
+
+            // ตรวจสอบว่าเป็นชื่อไฟล์ภาพหรือคีย์เวิร์ด
+            if (item.endsWith('.png')) {
+                img.src = "./assets/image_1/" + item;
+            } else {
+                if (item === 'show_game_1_1001') {
+                    img.src = "./assets/image_1/04.png";
+                } else if (item === 'show_game_1_1002') {
+                    img.src = "./assets/image_1/07.png";
+                } else if (item === 'show_game_1_1003') {
+                    img.src = "./assets/image_1/09.png";
+                }
+            }
+
+            slideshow.appendChild(img);
+        });
+
+        // กำหนดคลิกเหตุการณ์ให้กับแต่ละภาพ
+        var imagesList = slideshow.querySelectorAll('img');
+        imagesList.forEach(function(image, index) {
+            image.addEventListener('click', function() {
+                setCurrentImage(index);
+            });
+        });
+
+        // กำหนดภาพปัจจุบันด้วยค่าเริ่มต้น
+        setCurrentImage(0);
+
+        // ฟังก์ชันเปลี่ยนภาพปัจจุบัน
+        function setCurrentImage(index) {
+            // ลบคลาส 'active' จากภาพปัจจุบัน
+            var currentActiveImage = slideshow.querySelector('.active');
+            if (currentActiveImage) {
+                currentActiveImage.classList.remove('active');
+            }
+
+            // กำหนดคลาส 'active' ให้กับภาพที่เลือก
+            var newActiveImage = slideshow.querySelectorAll('img')[index];
+            if (newActiveImage) {
+                newActiveImage.classList.add('active');
+                currentImage.src = newActiveImage.src;
+            }
+        }
+
+        window.addEventListener('mousemove', function(event) {
+            if (event.clientY >= window.innerHeight - 10) {
+                bottomMenu.classList.add('active');
+            } else if (!bottomMenu.contains(event.target)) {
+                bottomMenu.classList.remove('active');
+            }
+        });
+    </script>
 
     <!-- script ป้องกัน -->
     <script language="JavaScript1.2">

@@ -39,7 +39,7 @@
         if (
             $file !== '.' && $file !== '..' && $file !== '.DS_Store' && $file !== '04.png' &&
             $file !== '07.png' && $file !== '09.png' && $file !== '10.png' && $file !== '11.png' &&
-            $file !== '14.png' && $file !== '18.png'
+            $file !== '14.png' && $file !== '18.png' && $file !== '19.png' && $file !== '23.png' && $file !== '24.png'
         ) {
             array_push($Array_Push_file, $file);
         }
@@ -59,6 +59,12 @@
     array_splice($Array_Push_file, 9, 0, "show_game_1_1006");
     // แทรก "show_game_1_1007"
     array_splice($Array_Push_file, 12, 0, "show_game_1_1007");
+    // แทรก "show_game_1_1008"
+    array_splice($Array_Push_file, 13, 0, "show_game_1_1008");
+    // แทรก "show_game_1_1009"
+    array_splice($Array_Push_file, 15, 0, "show_game_1_1009");
+    // แทรก "show_game_1_1010"
+    array_splice($Array_Push_file, 16, 0, "show_game_1_1010");
     ?>
 
     <div class="offcanvas offcanvas-top offcanvas_book" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
@@ -130,113 +136,11 @@
     </div> -->
 
     <!-- ***************************** -->
-    <!-- <center>
-        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/11.png');">
-            <div class="card-body" style="padding: 0px;">
-                <div class="row" id="row_game_1005">
-                    <div class="col-3 col_game_5">
-                        <a type="button" onclick="open_label('1')" id="this_label_1">
-                            <div class="card card_game_1005">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">1</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 col_game_5">
-                        <a type="button" onclick="open_label('2')" id="this_label_2">
-                            <div class="card card_game_1005">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">2</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 col_game_5">
-                        <a type="button" onclick="open_label('3')" id="this_label_3">
-                            <div class="card card_game_1005">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">3</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 col_game_5">
-                        <a type="button" onclick="open_label('4')" id="this_label_4">
-                            <div class="card card_game_1005">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">4</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 col_game_5">
-                        <a type="button" onclick="open_label('5')" id="this_label_5">
-                            <div class="card card_game_1005">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">5</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 col_game_5">
-                        <a type="button" onclick="open_label('6')" id="this_label_6">
-                            <div class="card card_game_1005">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">6</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 col_game_5">
-                        <a type="button" onclick="open_label('7')" id="this_label_7">
-                            <div class="card card_game_1005">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">7</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-3 col_game_5">
-                        <a type="button" onclick="open_label('8')" id="this_label_8">
-                            <div class="card card_game_1005">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">8</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-12 col_game_5">
-                        <a type="button" onclick="open_label('9')" id="this_label_9">
-                            <div class="card card_game_1005_re">
-                                <div class="card-body d-flex justify-content-center align-items-center">
-                                    <center>
-                                        <h3 class="text_Label_1005">เฉลย</h3>
-                                    </center>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <!-- <div class="card card_tt_8001">
+        <div class="card-body t-al-c">
+            ขยันหมั่นเพียร
         </div>
-    </center> -->
+    </div> -->
     <!-- ***************************** -->
 
     <script>
@@ -661,6 +565,245 @@
             </div>
         </center>
         `;
+
+        var show_game_1_1008 = `
+        <center>
+        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/19.png');">
+            <div class="card-body">
+
+                <a type="button" class="fix_btn_8001" id="fix_btn_8001" onclick="open_label_8('1')">
+                    <img class="img_8001" src="./assets/image_1_sub/23001.png" alt="">
+                </a>
+
+                <a type="button" class="fix_btn_8002" id="fix_btn_8002" onclick="open_label_8('2')">
+                    <img class="img_8002" src="./assets/image_1_sub/23002.png" alt="">
+                </a>
+
+                <a type="button" class="fix_btn_8003" id="fix_btn_8003" onclick="open_label_8('3')">
+                    <img class="img_8003" src="./assets/image_1_sub/23003.png" alt="">
+                </a>
+                
+                <a type="button" class="fix_btn_8004" id="fix_btn_8004" onclick="open_label_8('4')">
+                    <img class="img_8004" src="./assets/image_1_sub/23004.png" alt="">
+                </a>
+
+                <div class="card border-0 card_tt_8001" id="card_tt_8001" hidden>
+                    <div class="card-body t-al-c">
+                        ขยันหมั่นเพียร
+                    </div>
+                </div>
+                <div class="card border-0 card_tt_8001" id="card_tt_8002" hidden>
+                    <div class="card-body t-al-c">
+                        ตั้งใจ
+                    </div>
+                </div>
+                <div class="card border-0 card_tt_8001" id="card_tt_8003" hidden>
+                    <div class="card-body t-al-c">
+                        อดทน
+                    </div>
+                </div>
+                <div class="card border-0 card_tt_8001" id="card_tt_8004" hidden>
+                    <div class="card-body t-al-c">
+                        พยายาม
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </center>
+        `;
+
+        var show_game_1_1009 = `
+        <center>
+        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/23.png');">
+            <div class="card-body">
+
+                    <a type="button" class="fix_btn_9001" onclick="playSound('audio_8002')">
+                        <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                    </a>
+                    <a type="button" class="fix_btn_9002" onclick="playSound('audio_8001')">
+                        <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                    </a>
+
+                    <a type="button" class="fix_btn_9003" onclick="playSound('audio_8001')">
+                        <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                    </a>
+                    <a type="button" class="fix_btn_9004" onclick="playSound('audio_8002')">
+                        <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                    </a>
+
+                    <a type="button" class="fix_btn_9005" onclick="playSound('audio_8001')">
+                        <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                    </a>
+                    <a type="button" class="fix_btn_9006" onclick="playSound('audio_8002')">
+                        <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                    </a>
+
+                    <audio id="audio_8001" src="./assets/image_1_sub/9true.mp3"></audio>
+                    <audio id="audio_8002" src="./assets/image_1_sub/9false.mp3"></audio>
+
+            </div>
+        </div>
+    </center>
+        `;
+
+        var show_game_1_1010 = `
+        <center>
+            <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/24.png');">
+                <div class="card-body">
+
+                    <a type="button" class="fix_btn_10001" id="fix_btn_10001" onclick="open_label_10('text_10001')">
+                        <img class="img_10001" src="./assets/image_1_sub/10/1.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10002" id="fix_btn_10002" onclick="open_label_10('text_10002')">
+                        <img class="img_10002" src="./assets/image_1_sub/10/2.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10003" id="fix_btn_10003" onclick="open_label_10('text_10003')">
+                        <img class="img_10003" src="./assets/image_1_sub/10/3.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10004" id="fix_btn_10004" onclick="open_label_10('text_10004')">
+                        <img class="img_10004" src="./assets/image_1_sub/10/4.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10005" id="fix_btn_10005" onclick="open_label_10('text_10005')">
+                        <img class="img_10005" src="./assets/image_1_sub/10/5.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10006" id="fix_btn_10006" onclick="open_label_10('text_10006')">
+                        <img class="img_10006" src="./assets/image_1_sub/10/66.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10007" id="fix_btn_10007" onclick="open_label_10('text_10007')">
+                        <img class="img_10007" src="./assets/image_1_sub/10/7.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10008" id="fix_btn_10008" onclick="open_label_10('text_10008')">
+                        <img class="img_10008" src="./assets/image_1_sub/10/66.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10009" id="fix_btn_10009" onclick="open_label_10('text_10009')">
+                        <img class="img_10009" src="./assets/image_1_sub/10/9.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10010" id="fix_btn_10010" onclick="open_label_10('text_10010')">
+                        <img class="img_10010" src="./assets/image_1_sub/10/10.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10011" id="fix_btn_10011" onclick="open_label_10('text_10011')">
+                        <img class="img_10011" src="./assets/image_1_sub/10/11.png" alt="">
+                    </a>
+                    <a type="button" class="fix_btn_10012" id="fix_btn_10012" onclick="open_label_10('text_10012')">
+                        <img class="img_10012" src="./assets/image_1_sub/10/66.png" alt="">
+                    </a>
+
+                    <div class="card text_10001" id="text_10001" hidden>
+                        <div class="card-body">
+                            <h6>จุดเริ่มต้น</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10002" id="text_10002" hidden>
+                        <div class="card-body">
+                            <h6>หลงรักลูกสาวเศรษฐี</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10003" id="text_10003" hidden>
+                        <div class="card-body">
+                            <h6>หาหมอเสน่ห์</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10004" id="text_10004" hidden>
+                        <div class="card-body">
+                            <h6>เจอยายแก่</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10005" id="text_10005" hidden>
+                        <div class="card-body">
+                            <h6>หากล้วยสองปลี</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10006" id="text_10006" hidden>
+                        <div class="card-body">
+                            <h6>หาไม่เจอ</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10007" id="text_10007" hidden>
+                        <div class="card-body">
+                            <h6>ปลูกกล้วย</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10008" id="text_10008" hidden>
+                        <div class="card-body">
+                            <h6>หาไม่เจอ</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10009" id="text_10009" hidden>
+                        <div class="card-body">
+                            <h6>ขายกล้วย</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10010" id="text_10010" hidden>
+                        <div class="card-body">
+                            <h6>รำ่รวย</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10011" id="text_10011" hidden>
+                        <div class="card-body">
+                            <h6>แต่งงาน</h6>
+                        </div>
+                    </div>
+                    <div class="card text_10012" id="text_10012" hidden>
+                        <div class="card-body">
+                            <h6>หาไม่เจอ</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </center>
+        `;
+    </script>
+
+    <!-- 22:39 P 1. จุดเริ่มต้น
+22:39 P 2. หลงรักลูกสาวเศรษฐี
+22:40 P 3. หาหมอเสน่ห์
+22:40 P 4. เจอยายแก่
+22:40 P 5. หากล้วยสองปลี
+22:40 P 6. หาไม่เจอ
+22:40 P 7. ปลูกกล้วย
+22:40 P 8. หาไม่เจอ
+22:41 P 9. ขายกล้วย
+22:41 P 10. รำ่รวย
+22:41 P 11. แต่งงาน
+22:42 P 12. หาไม่เจอ -->
+
+    <script>
+        function open_label_10(cardId) {
+            var cardNames = [
+                'text_10001',
+                'text_10002',
+                'text_10003',
+                'text_10004',
+                'text_10005',
+                'text_10006',
+                'text_10007',
+                'text_10008',
+                'text_10009',
+                'text_10010',
+                'text_10011',
+                'text_10012'
+            ];
+
+            // วนลูปเช็คและปรับสถานะการซ่อนของ card
+            cardNames.forEach(function(name) {
+                var card = document.getElementById(name);
+                if (name === cardId) {
+                    card.hidden = false; // เปิดแสดง card
+                } else {
+                    card.hidden = true; // ซ่อน card
+                }
+            });
+
+        }
+    </script>
+
+    <script>
+        function playSound(audioId) {
+            var audio = document.getElementById(audioId);
+            audio.play();
+        }
     </script>
 
     <script>
@@ -739,6 +882,24 @@
                     cardShow.style.minWidth = '100%';
                     window.addEventListener('resize', setCardHeight);
                     setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1008') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1008;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1009') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1009;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1010') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1010;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
                 } else {
                     currentImage.src = './assets/image_1/' + images[currentImageIndex];
                     cardShow.innerHTML = ''; // ลบ HTML ของแคร์ทิ้งเมื่อเป็นรูปภาพที่ไม่ใช่ "show_game_1_1001"
@@ -812,6 +973,24 @@
                 } else if (images[currentImageIndex] === 'show_game_1_1007') {
                     currentImage.src = '';
                     cardShow.innerHTML = show_game_1_1007;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1008') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1008;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1009') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1009;
+                    cardShow.style.minWidth = '100%';
+                    window.addEventListener('resize', setCardHeight);
+                    setCardHeight();
+                } else if (images[currentImageIndex] === 'show_game_1_1010') {
+                    currentImage.src = '';
+                    cardShow.innerHTML = show_game_1_1010;
                     cardShow.style.minWidth = '100%';
                     window.addEventListener('resize', setCardHeight);
                     setCardHeight();
@@ -907,6 +1086,43 @@
 
         function myGreeting() {
             document.getElementById("money-rain").hidden = true;
+        }
+    </script>
+
+    <script>
+        function open_label_8(value) {
+            var cardTt8001 = document.getElementById('card_tt_8001');
+            var cardTt8002 = document.getElementById('card_tt_8002');
+            var cardTt8003 = document.getElementById('card_tt_8003');
+            var cardTt8004 = document.getElementById('card_tt_8004');
+
+            if (value == '1') {
+                cardTt8002.hidden = true;
+                cardTt8003.hidden = true;
+                cardTt8004.hidden = true;
+                cardTt8001.hidden = !cardTt8001.hidden;
+            }
+
+            if (value == '2') {
+                cardTt8001.hidden = true;
+                cardTt8003.hidden = true;
+                cardTt8004.hidden = true;
+                cardTt8002.hidden = !cardTt8002.hidden;
+            }
+
+            if (value == '3') {
+                cardTt8001.hidden = true;
+                cardTt8002.hidden = true;
+                cardTt8004.hidden = true;
+                cardTt8003.hidden = !cardTt8003.hidden;
+            }
+
+            if (value == '4') {
+                cardTt8001.hidden = true;
+                cardTt8002.hidden = true;
+                cardTt8003.hidden = true;
+                cardTt8004.hidden = !cardTt8004.hidden;
+            }
         }
     </script>
 

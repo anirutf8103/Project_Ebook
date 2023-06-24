@@ -278,17 +278,332 @@ img {
     left: 90%;
 }
 
-.fix_btn_6001{
+.fix_btn_6001 {
     position: absolute;
     top: 85%;
     left: 90%;
 }
 
-.fix_btn_6002{
+.fix_btn_6002 {
     position: absolute;
     top: 85%;
     left: 85%;
 }
+
+.fix_btn_8001 {
+    position: absolute;
+    top: 63%;
+    left: 11%;
+}
+
+.img_8001 {
+    width: 16vw;
+}
+
+.img_8001:hover {
+    border-radius: 15px;
+    background-image: url("../image_1_sub/55001.gif");
+    background-size: cover;
+}
+
+.fix_btn_8002 {
+    position: absolute;
+    top: 72%;
+    left: 23%;
+}
+
+.img_8002 {
+    width: 16vw;
+}
+
+.img_8002:hover {
+    border-radius: 15px;
+    background-image: url("../image_1_sub/55002.gif");
+    background-size: cover;
+}
+
+.fix_btn_8003 {
+    position: absolute;
+    top: 66%;
+    left: 56%;
+}
+
+.img_8003 {
+    width: 16vw;
+}
+
+.img_8003:hover {
+    border-radius: 15px;
+    background-image: url("../image_1_sub/55003.gif");
+    background-size: cover;
+}
+
+.fix_btn_8004 {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+}
+
+.img_8004 {
+    width: 16vw;
+}
+
+.img_8004:hover {
+    border-radius: 15px;
+    background-image: url("../image_1_sub/55004.gif");
+    background-size: cover;
+}
+
+.card_tt_8001 {
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    width: 10vw;
+    box-shadow: 0 0 10px 5px rgba(0, 123, 255, 0.5);
+}
+
+.fix_btn_9001 {
+    position: absolute;
+    top: 52%;
+    left: 20%;
+}
+
+.fix_btn_9002 {
+    position: absolute;
+    top: 52%;
+    left: 25%;
+}
+
+.fix_btn_9003 {
+    position: absolute;
+    top: 64%;
+    left: 20%;
+}
+
+.fix_btn_9004 {
+    position: absolute;
+    top: 64%;
+    left: 25%;
+}
+
+.fix_btn_9005 {
+    position: absolute;
+    top: 75.5%;
+    left: 20%;
+}
+
+.fix_btn_9006 {
+    position: absolute;
+    top: 75.5%;
+    left: 25%;
+}
+
+/* game 10 */
+.fix_btn_10001 {
+    position: absolute;
+    top: 32%;
+    left: 7%;
+}
+
+.img_10001 {
+    width: 5.5vw;
+}
+
+.text_10001{
+    position: absolute;
+    top: 49%;
+    left: 7%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10002 {
+    position: absolute;
+    top: 40%;
+    left: 21%;
+}
+
+.img_10002 {
+    width: 7vw;
+}
+
+.text_10002{
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10003 {
+    position: absolute;
+    top: 38%;
+    left: 38%;
+}
+
+.img_10003 {
+    width: 5vw;
+}
+
+.text_10003{
+    position: absolute;
+    top: 35%;
+    left: 36%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10004 {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.img_10004 {
+    width: 5vw;
+}
+
+.text_10004{
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10005 {
+    position: absolute;
+    top: 43%;
+    left: 73%;
+}
+
+.img_10005 {
+    width: 7vw;
+}
+
+.text_10005{
+    position: absolute;
+    top: 35%;
+    left: 73%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10006 {
+    position: absolute;
+    top: 63%;
+    left: 72%;
+}
+
+.img_10006 {
+    width: 7vw;
+}
+
+.text_10006{
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10007 {
+    position: absolute;
+    top: 60%;
+    left: 52%;
+}
+
+.img_10007 {
+    width: 7vw;
+}
+
+.text_10007{
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10008 {
+    position: absolute;
+    top: 60%;
+    left: 37%;
+}
+
+.img_10008 {
+    width: 7vw;
+}
+
+.text_10008{
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10009 {
+    position: absolute;
+    top: 58%;
+    left: 20%;
+}
+
+.img_10009 {
+    width: 7vw;
+}
+
+.text_10009{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10010 {
+    position: absolute;
+    top: 85%;
+    left: 20%;
+}
+
+.img_10010 {
+    width: 7vw;
+}
+
+.text_10010{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10011 {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.img_10011 {
+    width: 5vw;
+}
+
+.text_10011{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    background-color: #ffffff83;
+}
+
+.fix_btn_10012 {
+    position: absolute;
+    top: 80%;
+    left: 55%;
+}
+
+.img_10012 {
+    width: 7vw;
+}
+
+.text_10012{
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    background-color: #ffffff83;
+}
+
+/* game 10 */
 
 .image-container {
     position: relative;
@@ -453,6 +768,7 @@ a {
     0% {
         transform: translate(0, 0);
     }
+
     100% {
         transform: translate(0, 100%);
     }

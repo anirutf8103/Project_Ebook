@@ -568,83 +568,83 @@
 
         var show_game_1_1008 = `
         <center>
-        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/19.png');">
-            <div class="card-body">
+            <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/19.png');">
+                <div class="card-body">
 
-                <a type="button" class="fix_btn_8001" id="fix_btn_8001" onclick="open_label_8('1')">
-                    <img class="img_8001" src="./assets/image_1_sub/23001.png" alt="">
-                </a>
+                    <a type="button" class="fix_btn_8001" id="fix_btn_8001" onclick="open_label_8('1')">
+                        <img class="img_8001" src="./assets/image_1_sub/23001.png" alt="">
+                    </a>
 
-                <a type="button" class="fix_btn_8002" id="fix_btn_8002" onclick="open_label_8('2')">
-                    <img class="img_8002" src="./assets/image_1_sub/23002.png" alt="">
-                </a>
+                    <a type="button" class="fix_btn_8002" id="fix_btn_8002" onclick="open_label_8('2')">
+                        <img class="img_8002" src="./assets/image_1_sub/23002.png" alt="">
+                    </a>
 
-                <a type="button" class="fix_btn_8003" id="fix_btn_8003" onclick="open_label_8('3')">
-                    <img class="img_8003" src="./assets/image_1_sub/23003.png" alt="">
-                </a>
-                
-                <a type="button" class="fix_btn_8004" id="fix_btn_8004" onclick="open_label_8('4')">
-                    <img class="img_8004" src="./assets/image_1_sub/23004.png" alt="">
-                </a>
+                    <a type="button" class="fix_btn_8003" id="fix_btn_8003" onclick="open_label_8('3')">
+                        <img class="img_8003" src="./assets/image_1_sub/23003.png" alt="">
+                    </a>
+                    
+                    <a type="button" class="fix_btn_8004" id="fix_btn_8004" onclick="open_label_8('4')">
+                        <img class="img_8004" src="./assets/image_1_sub/23004.png" alt="">
+                    </a>
 
-                <div class="card border-0 card_tt_8001" id="card_tt_8001" hidden>
-                    <div class="card-body t-al-c">
-                        ขยันหมั่นเพียร
+                    <div class="card border-0 card_tt_8001" id="card_tt_8001" hidden>
+                        <div class="card-body t-al-c">
+                            ขยันหมั่นเพียร
+                        </div>
                     </div>
-                </div>
-                <div class="card border-0 card_tt_8001" id="card_tt_8002" hidden>
-                    <div class="card-body t-al-c">
-                        ตั้งใจ
+                    <div class="card border-0 card_tt_8001" id="card_tt_8002" hidden>
+                        <div class="card-body t-al-c">
+                            ตั้งใจ
+                        </div>
                     </div>
-                </div>
-                <div class="card border-0 card_tt_8001" id="card_tt_8003" hidden>
-                    <div class="card-body t-al-c">
-                        อดทน
+                    <div class="card border-0 card_tt_8001" id="card_tt_8003" hidden>
+                        <div class="card-body t-al-c">
+                            อดทน
+                        </div>
                     </div>
-                </div>
-                <div class="card border-0 card_tt_8001" id="card_tt_8004" hidden>
-                    <div class="card-body t-al-c">
-                        พยายาม
+                    <div class="card border-0 card_tt_8001" id="card_tt_8004" hidden>
+                        <div class="card-body t-al-c">
+                            พยายาม
+                        </div>
                     </div>
-                </div>
 
+                </div>
             </div>
-        </div>
-    </center>
+        </center>
         `;
 
         var show_game_1_1009 = `
         <center>
-        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/23.png');">
-            <div class="card-body">
+            <div class="card card_game_main card_game" id="cardElement" style="background-image: url('./assets/image_1/23.png');">
+                <div class="card-body">
 
-                    <a type="button" class="fix_btn_9001" onclick="playSound('audio_8002')">
-                        <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
-                    </a>
-                    <a type="button" class="fix_btn_9002" onclick="playSound('audio_8001')">
-                        <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
-                    </a>
+                        <a type="button" class="fix_btn_9001" onclick="playSound('audio_8002')">
+                            <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                        </a>
+                        <a type="button" class="fix_btn_9002" onclick="playSound('audio_8001')">
+                            <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                        </a>
 
-                    <a type="button" class="fix_btn_9003" onclick="playSound('audio_8001')">
-                        <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
-                    </a>
-                    <a type="button" class="fix_btn_9004" onclick="playSound('audio_8002')">
-                        <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
-                    </a>
+                        <a type="button" class="fix_btn_9003" onclick="playSound('audio_8001')">
+                            <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                        </a>
+                        <a type="button" class="fix_btn_9004" onclick="playSound('audio_8002')">
+                            <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                        </a>
 
-                    <a type="button" class="fix_btn_9005" onclick="playSound('audio_8001')">
-                        <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
-                    </a>
-                    <a type="button" class="fix_btn_9006" onclick="playSound('audio_8002')">
-                        <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
-                    </a>
+                        <a type="button" class="fix_btn_9005" onclick="playSound('audio_8001')">
+                            <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                        </a>
+                        <a type="button" class="fix_btn_9006" onclick="playSound('audio_8002')">
+                            <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                        </a>
 
-                    <audio id="audio_8001" src="./assets/image_1_sub/9true.mp3"></audio>
-                    <audio id="audio_8002" src="./assets/image_1_sub/9false.mp3"></audio>
+                        <audio id="audio_8001" src="./assets/image_1_sub/9true.mp3"></audio>
+                        <audio id="audio_8002" src="./assets/image_1_sub/9false.mp3"></audio>
 
+                </div>
             </div>
-        </div>
-    </center>
+        </center>
         `;
 
         var show_game_1_1010 = `

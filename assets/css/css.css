@@ -409,7 +409,7 @@ img {
     width: 5.5vw;
 }
 
-.text_10001{
+.text_10001 {
     position: absolute;
     top: 49%;
     left: 7%;
@@ -426,7 +426,7 @@ img {
     width: 7vw;
 }
 
-.text_10002{
+.text_10002 {
     position: absolute;
     top: 35%;
     left: 18%;
@@ -443,7 +443,7 @@ img {
     width: 5vw;
 }
 
-.text_10003{
+.text_10003 {
     position: absolute;
     top: 35%;
     left: 36%;
@@ -460,7 +460,7 @@ img {
     width: 5vw;
 }
 
-.text_10004{
+.text_10004 {
     position: absolute;
     top: 35%;
     left: 55%;
@@ -477,7 +477,7 @@ img {
     width: 7vw;
 }
 
-.text_10005{
+.text_10005 {
     position: absolute;
     top: 35%;
     left: 73%;
@@ -494,7 +494,7 @@ img {
     width: 7vw;
 }
 
-.text_10006{
+.text_10006 {
     position: absolute;
     top: 55%;
     left: 72%;
@@ -511,7 +511,7 @@ img {
     width: 7vw;
 }
 
-.text_10007{
+.text_10007 {
     position: absolute;
     top: 55%;
     left: 52%;
@@ -528,7 +528,7 @@ img {
     width: 7vw;
 }
 
-.text_10008{
+.text_10008 {
     position: absolute;
     top: 55%;
     left: 37%;
@@ -545,7 +545,7 @@ img {
     width: 7vw;
 }
 
-.text_10009{
+.text_10009 {
     position: absolute;
     top: 55%;
     left: 20%;
@@ -562,7 +562,7 @@ img {
     width: 7vw;
 }
 
-.text_10010{
+.text_10010 {
     position: absolute;
     top: 75%;
     left: 20%;
@@ -579,7 +579,7 @@ img {
     width: 5vw;
 }
 
-.text_10011{
+.text_10011 {
     position: absolute;
     top: 75%;
     left: 40%;
@@ -596,7 +596,7 @@ img {
     width: 7vw;
 }
 
-.text_10012{
+.text_10012 {
     position: absolute;
     top: 75%;
     left: 55%;
@@ -772,4 +772,12 @@ a {
     100% {
         transform: translate(0, 100%);
     }
+}
+
+#cardElement {
+    width: 100%;
+    height: 100vh;
+    border: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }

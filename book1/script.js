@@ -13,6 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
     maxShadowOpacity: 0.2, // Half shadow intensity
     showCover: true,
     mobileScrollSupport: false, // disable content scrolling on mobile devices
+
+    controlsProps: {
+      nextBtn: "#nextPageButton", // เลือกองค์ประกอบที่คุณต้องการเป็นปุ่มเปิดหน้าถัดไป
+    },
   });
 
   // load pages

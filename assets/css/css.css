@@ -213,8 +213,8 @@ img {
 .image_top_1 {
     /* width: 170px; */
     /* height: 170px; */
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     object-fit: cover;
     align-items: center;
@@ -224,8 +224,8 @@ img {
 .image_top_sub_1 {
     /* width: 170px; */
     /* height: 170px; */
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
     object-fit: cover;
     align-items: center;
@@ -258,7 +258,7 @@ img {
 
 .fix_btn_2 {
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 55%;
 }
 
@@ -297,7 +297,7 @@ img {
 }
 
 .img_8001 {
-    width: 16vw;
+    width: 18vw;
 }
 
 .img_8001:hover {
@@ -313,7 +313,7 @@ img {
 }
 
 .img_8002 {
-    width: 16vw;
+    width: 18vw;
 }
 
 .img_8002:hover {
@@ -329,7 +329,7 @@ img {
 }
 
 .img_8003 {
-    width: 16vw;
+    width: 18vw;
 }
 
 .img_8003:hover {
@@ -345,7 +345,7 @@ img {
 }
 
 .img_8004 {
-    width: 16vw;
+    width: 18vw;
 }
 
 .img_8004:hover {
@@ -357,56 +357,56 @@ img {
 .card_tt_8001 {
     position: absolute;
     top: 65%;
-    left: 45%;
-    width: 10vw;
+    left: 38%;
+    width: max-content;
     box-shadow: 0 0 10px 5px rgba(0, 123, 255, 0.5);
 }
 
 .fix_btn_9001 {
     position: absolute;
-    top: 52%;
-    left: 20%;
+    top: 51%;
+    left: 15%;
 }
 
 .fix_btn_9002 {
     position: absolute;
-    top: 52%;
+    top: 51%;
     left: 25%;
 }
 
 .fix_btn_9003 {
     position: absolute;
-    top: 64%;
-    left: 20%;
+    top: 63%;
+    left: 15%;
 }
 
 .fix_btn_9004 {
     position: absolute;
-    top: 64%;
+    top: 63%;
     left: 25%;
 }
 
 .fix_btn_9005 {
     position: absolute;
-    top: 75.5%;
-    left: 20%;
+    top: 74%;
+    left: 15%;
 }
 
 .fix_btn_9006 {
     position: absolute;
-    top: 75.5%;
+    top: 74%;
     left: 25%;
 }
 
 /* game 10 */
 .fix_btn_10001 {
     position: absolute;
-    top: 32%;
+    top: 40%;
     left: 7%;
 }
 
 .img_10001 {
-    width: 5.5vw;
+    width: 7vw;
 }
 
 .text_10001 {
@@ -418,12 +418,12 @@ img {
 
 .fix_btn_10002 {
     position: absolute;
-    top: 40%;
+    top: 43%;
     left: 21%;
 }
 
 .img_10002 {
-    width: 7vw;
+    width: 9vw;
 }
 
 .text_10002 {
@@ -435,17 +435,17 @@ img {
 
 .fix_btn_10003 {
     position: absolute;
-    top: 38%;
-    left: 38%;
+    top: 40%;
+    left: 37%;
 }
 
 .img_10003 {
-    width: 5vw;
+    width: 9vw;
 }
 
 .text_10003 {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 36%;
     background-color: #ffffff83;
 }
@@ -453,11 +453,11 @@ img {
 .fix_btn_10004 {
     position: absolute;
     top: 40%;
-    left: 55%;
+    left: 54%;
 }
 
 .img_10004 {
-    width: 5vw;
+    width: 8vw;
 }
 
 .text_10004 {
@@ -470,11 +470,11 @@ img {
 .fix_btn_10005 {
     position: absolute;
     top: 43%;
-    left: 73%;
+    left: 70%;
 }
 
 .img_10005 {
-    width: 7vw;
+    width: 10vw;
 }
 
 .text_10005 {
@@ -487,11 +487,11 @@ img {
 .fix_btn_10006 {
     position: absolute;
     top: 63%;
-    left: 72%;
+    left: 71%;
 }
 
 .img_10006 {
-    width: 7vw;
+    width: 9vw;
 }
 
 .text_10006 {
@@ -504,11 +504,11 @@ img {
 .fix_btn_10007 {
     position: absolute;
     top: 60%;
-    left: 52%;
+    left: 54%;
 }
 
 .img_10007 {
-    width: 7vw;
+    width: 9vw;
 }
 
 .text_10007 {
@@ -520,12 +520,12 @@ img {
 
 .fix_btn_10008 {
     position: absolute;
-    top: 60%;
+    top: 63%;
     left: 37%;
 }
 
 .img_10008 {
-    width: 7vw;
+    width: 9vw;
 }
 
 .text_10008 {
@@ -538,11 +538,11 @@ img {
 .fix_btn_10009 {
     position: absolute;
     top: 58%;
-    left: 20%;
+    left: 21%;
 }
 
 .img_10009 {
-    width: 7vw;
+    width: 9vw;
 }
 
 .text_10009 {
@@ -554,12 +554,12 @@ img {
 
 .fix_btn_10010 {
     position: absolute;
-    top: 85%;
+    top: 83%;
     left: 20%;
 }
 
 .img_10010 {
-    width: 7vw;
+    width: 10vw;
 }
 
 .text_10010 {
@@ -588,12 +588,12 @@ img {
 
 .fix_btn_10012 {
     position: absolute;
-    top: 80%;
-    left: 55%;
+    top: 83%;
+    left: 56%;
 }
 
 .img_10012 {
-    width: 7vw;
+    width: 9vw;
 }
 
 .text_10012 {
@@ -613,8 +613,8 @@ img {
 
 .image-container img {
     /* display: block; */
-    width: 10vw;
-    height: 10vw;
+    width: 15vw;
+    height: 15vw;
     border-radius: 50%;
 }
 
@@ -638,7 +638,7 @@ img {
 
     100% {
         top: 0%;
-        padding: 15px;
+        padding: 5px;
     }
 }
 
@@ -737,6 +737,7 @@ img {
 .col_game_5 {
     padding: 0px;
     /* height: 100px; */
+    height: 33.33vh;
 }
 
 .text_Label_1005 {
@@ -781,3 +782,7 @@ a {
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
+
+/* .img_marker{
+    width: 18vw;
+} */

@@ -62,17 +62,17 @@
               <span class="book-voters">1.987 voters</span>
             </div>
             <div class="book-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
-            <a href="./book_1.php" style="text-decoration: none;">
+            <a href="./book1/" style="text-decoration: none;">
               <div class="book-see">อ่านหนังสือ</div>
             </a>
           </div>
         </div>
         <div class="book-cell">
           <div class="book-img">
-            <img src="https://i.pinimg.com/originals/a8/b9/ff/a8b9ff74ed0f3efd97e09a7a0447f892.jpg" alt="" class="book-photo">
+            <img src="./assets/image_5/01.png" alt="" class="book-photo">
           </div>
           <div class="book-content">
-            <div class="book-title">Ten Thousand Skies Above You</div>
+            <div class="book-title">หมาป่ากับต้นไม้ศักดิ์สิทธิ์</div>
             <div class="book-author">by Claudia Gray</div>
             <div class="rate">
               <fieldset class="rating blue">
@@ -95,10 +95,10 @@
         </div>
         <div class="book-cell">
           <div class="book-img">
-            <img src="https://www.abebooks.com/blog/wp-content/uploads/2016/08/10.jpg" alt="" class="book-photo">
+            <img src="./assets/image_2/01.png" alt="" class="book-photo">
           </div>
           <div class="book-content">
-            <div class="book-title">A Tale For The Time Being</div>
+            <div class="book-title">เกาะหนู เกาะแมว</div>
             <div class="book-author">by Ruth Ozeki</div>
             <div class="rate">
               <fieldset class="rating purple">
@@ -121,10 +121,10 @@
         </div>
         <div class="book-cell">
           <div class="book-img">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg" alt="" class="book-photo">
+            <img src="./assets/image_4/01.png" alt="" class="book-photo">
           </div>
           <div class="book-content">
-            <div class="book-title">The Great Gatsby</div>
+            <div class="book-title">นายแรง</div>
             <div class="book-author">by F.Scott Fitzgerald</div>
             <div class="rate">
               <fieldset class="rating yellow">
@@ -147,10 +147,10 @@
         </div>
         <div class="book-cell">
           <div class="book-img">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/81UWB7oUZ0L.jpg" alt="" class="book-photo">
+            <img src="./assets/image_3/01.png" alt="" class="book-photo">
           </div>
           <div class="book-content">
-            <div class="book-title">After You</div>
+            <div class="book-title">เขาทะนาน</div>
             <div class="book-author">by Jojo Moyes</div>
             <div class="rate">
               <fieldset class="rating dark-purp">
@@ -174,8 +174,8 @@
       </div>
     </div>
     <div class="main-wrapper">
-      <div class="books-of">
-        <!-- <div class="week">
+      <!-- <div class="books-of">
+        <div class="week">
           <div class="author-title">Author of the week</div>
           <div class="author">
             <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" alt="" class="author-img">
@@ -201,65 +201,67 @@
             <img src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="author-img">
             <div class="author-name">Ian Cassandra</div>
           </div>
-        </div> -->
+        </div>
         <div class="week year">
           <div class="author-title">Books of the year</div>
+
           <div class="year-book">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/A1kNdYXw0GL.jpg" alt="" class="year-book-img">
+            <img src="./assets/image_4/back.png" alt="" class="year-book-img">
             <div class="year-book-content">
-              <div class="year-book-name">Disappearing Earth</div>
+              <div class="year-book-name">นายแรง</div>
+              <div class="year-book-author">by Elif Shafak</div>
+            </div>
+          </div>
+          <div class="year-book">
+            <img src="./assets/image_3/02.png" alt="" class="year-book-img">
+            <div class="year-book-content">
+              <div class="year-book-name">เขาทะนาน</div>
               <div class="year-book-author">by Julia Phillips</div>
             </div>
           </div>
           <div class="year-book">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/81eI0ExR+VL.jpg" alt="" class="year-book-img">
+            <img src="./assets/image_1/26.png" alt="" class="year-book-img">
             <div class="year-book-content">
-              <div class="year-book-name">Lost Children Archive</div>
+              <div class="year-book-name">กล้วยสองปลี</div>
               <div class="year-book-author">by Valeria Luiselli</div>
             </div>
           </div>
           <div class="year-book">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/81OF9eJDA4L.jpg" alt="" class="year-book-img">
+            <img src="./assets/image_2/back.png" alt="" class="year-book-img">
             <div class="year-book-content">
-              <div class="year-book-name">Phantoms: A Thriller </div>
+              <div class="year-book-name">เกาะหนู เกาะแมว</div>
               <div class="year-book-author">by Dean Koontz</div>
             </div>
           </div>
           <div class="year-book">
-            <img src="https://m.media-amazon.com/images/I/515FWPyZ-5L.jpg" alt="" class="year-book-img">
+            <img src="./assets/image_5/back.png" alt="" class="year-book-img">
             <div class="year-book-content">
-              <div class="year-book-name">Midnight in Chernobyl</div>
+              <div class="year-book-name">หมาป่ากับต้นไม้ศักดิ์สิทธิ์</div>
               <div class="year-book-author">by Adam Higginbotham</div>
             </div>
           </div>
-          <div class="year-book">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/91dBtgERNUL.jpg" alt="" class="year-book-img">
-            <div class="year-book-content">
-              <div class="year-book-name">10 Minutes 38 Seconds</div>
-              <div class="year-book-author">by Elif Shafak</div>
-            </div>
-          </div>
+          
         </div>
         <div class="overlay"></div>
-      </div>
+      </div> -->
       <div class="popular-books">
         <div class="main-menu">
           <div class="genre">Popular by Genre</div>
-          <div class="book-types">
+          <!-- <div class="book-types">
             <a href="#" class="book-type active"> All Genres</a>
             <a href="#" class="book-type"> Business</a>
             <a href="#" class="book-type"> Science</a>
             <a href="#" class="book-type"> Fiction</a>
             <a href="#" class="book-type"> Philosophy</a>
             <a href="#" class="book-type"> Biography</a>
-          </div>
+          </div> -->
         </div>
         <div class="book-cards">
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2019%2F07%2Fchances-are-1-2000.jpg&q=85" alt="" class="book-card-img">
+              <img src="./assets/image_4/back.png" alt="" class="book-card-img">
               <div class="card-content">
-                <div class="book-name">Changes Are</div>
+                <div class="book-name">นายแรง</div>
                 <div class="book-by">by Richard Russo</div>
                 <div class="rate">
                   <fieldset class="rating book-rate">
@@ -279,7 +281,7 @@
                 <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
               </div>
             </div>
-            <div class="likes">
+            <!-- <div class="likes">
               <div class="like-profile">
                 <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
               </div>
@@ -290,13 +292,13 @@
                 <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" alt="" class="like-img">
               </div>
               <div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span> like this</div>
-            </div>
+            </div> -->
           </div>
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/7167iiDUeAL.jpg" alt="" class="book-card-img">
+              <img src="./assets/image_3/back.png" alt="" class="book-card-img">
               <div class="card-content">
-                <div class="book-name">Dominicana</div>
+                <div class="book-name">เขาทะนาน</div>
                 <div class="book-by">by Angie Cruz</div>
                 <div class="rate">
                   <fieldset class="rating book-rate">
@@ -316,18 +318,18 @@
                 <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
               </div>
             </div>
-            <div class="likes">
+            <!-- <div class="likes">
               <div class="like-profile">
                 <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
               </div>
               <div class="like-name"><span>Kimberly Jones</span> like this</div>
-            </div>
+            </div> -->
           </div>
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="https://assets.fontsinuse.com/static/use-media-items/95/94294/full-2000x3056/5d56c6b1/cg%201.jpeg?resolution=0" alt="" class="book-card-img">
+              <img src="./assets/image_1/26.png" alt="" class="book-card-img">
               <div class="card-content">
-                <div class="book-name">The Travellers</div>
+                <div class="book-name">กล้วยสองปลี</div>
                 <div class="book-by">by Regina Porter</div>
                 <div class="rate">
                   <fieldset class="rating book-rate">
@@ -347,7 +349,7 @@
                 <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
               </div>
             </div>
-            <div class="likes">
+            <!-- <div class="likes">
               <div class="like-profile">
                 <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
               </div>
@@ -355,13 +357,13 @@
                 <img src="https://pbs.twimg.com/profile_images/2452384114/noplz47r59v1uxvyg8ku.png" alt="" class="like-img">
               </div>
               <div class="like-name"><span>Adam</span> and<span> Kimberly</span> like this</div>
-            </div>
+            </div> -->
           </div>
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/91M4E+SURUL.jpg" alt="" class="book-card-img">
+              <img src="./assets/image_2/back.png" alt="" class="book-card-img">
               <div class="card-content">
-                <div class="book-name">Afternoon Of A Faun</div>
+                <div class="book-name">เกาะหนู เกาะแมว</div>
                 <div class="book-by">by James Lasdun</div>
                 <div class="rate">
                   <fieldset class="rating book-rate">
@@ -381,7 +383,7 @@
                 <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
               </div>
             </div>
-            <div class="likes">
+            <!-- <div class="likes">
               <div class="like-profile">
                 <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
               </div>
@@ -392,13 +394,13 @@
                 <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" alt="" class="like-img">
               </div>
               <div class="like-name"><span>Samantha William</span> and<span> 2 other friends</span> like this</div>
-            </div>
+            </div> -->
           </div>
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="https://images-na.ssl-images-amazon.com/images/I/61OTY2-4anL.jpg" alt="" class="book-card-img">
+              <img src="./assets/image_5/back.png" alt="" class="book-card-img">
               <div class="card-content">
-                <div class="book-name">Flash Count Diary</div>
+                <div class="book-name">หมาป่ากับต้นไม้ศักดิ์สิทธิ์</div>
                 <div class="book-by">by Darcey Steinke</div>
                 <div class="rate">
                   <fieldset class="rating book-rate">
@@ -418,7 +420,7 @@
                 <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
               </div>
             </div>
-            <div class="likes">
+            <!-- <div class="likes">
               <div class="like-profile">
                 <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="like-img">
               </div>
@@ -429,9 +431,9 @@
                 <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80" alt="" class="like-img">
               </div>
               <div class="like-name"><span>Angelina Stone</span> and<span> 2 other friends</span> like this</div>
-            </div>
+            </div> -->
           </div>
-          <div class="book-card">
+          <!-- <div class="book-card">
             <div class="content-wrapper">
               <img src="https://images-na.ssl-images-amazon.com/images/I/61Vc+xM23GL.jpg" alt="" class="book-card-img">
               <div class="card-content">
@@ -535,7 +537,7 @@
               </div>
               <div class="like-name"><span>Samantha William</span> and<span> Jonathan</span> like this</div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

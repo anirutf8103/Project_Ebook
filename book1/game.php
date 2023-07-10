@@ -295,7 +295,7 @@ if (isset($_GET['show_game_1_1005'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_1/11.png');">
             <div class="card-body" style="padding: 0px;">
-                <div class="row" id="row_game_1005">
+                <div class="row" id="row_game_1005" style="height: 33.33vh;">
                     <div class="col-3 col_game_5">
                         <a type="button" class="w-100 h-100 text-dark" onclick="open_label('1')" id="this_label_1">
                             <div class="card card_game_1005">
@@ -510,24 +510,24 @@ if (isset($_GET['show_game_1_1009'])) {
             <div class="card-body">
 
                 <a type="button" class="fix_btn_9001" onclick="playSound('audio_8002')">
-                    <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                    <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="40" data-height="40"></span>
                 </a>
                 <a type="button" class="fix_btn_9002" onclick="playSound('audio_8001')">
-                    <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                    <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="40" data-height="40"></span>
                 </a>
 
                 <a type="button" class="fix_btn_9003" onclick="playSound('audio_8001')">
-                    <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                    <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="40" data-height="40"></span>
                 </a>
                 <a type="button" class="fix_btn_9004" onclick="playSound('audio_8002')">
-                    <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                    <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="40" data-height="40"></span>
                 </a>
 
                 <a type="button" class="fix_btn_9005" onclick="playSound('audio_8001')">
-                    <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="45" data-height="45"></span>
+                    <span class="iconify text-success icon900" data-icon="ep:success-filled" data-width="40" data-height="40"></span>
                 </a>
                 <a type="button" class="fix_btn_9006" onclick="playSound('audio_8002')">
-                    <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="45" data-height="45"></span>
+                    <span class="iconify text-danger icon900" data-icon="healthicons:no" data-width="40" data-height="40"></span>
                 </a>
 
                 <audio id="audio_8001" src="../assets/image_1_sub/9true.mp3"></audio>
@@ -545,6 +545,8 @@ if (isset($_GET['show_game_1_1010'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_1/24.png');">
             <div class="card-body">
+
+                <!-- <img class="img_marker" src="../assets/image_1_sub/23004.png" alt=""> -->
 
                 <a type="button" class="fix_btn_10001" id="fix_btn_10001" onclick="open_label_10('text_10001')">
                     <img class="img_10001" src="../assets/image_1_sub/10/1.png" alt="">

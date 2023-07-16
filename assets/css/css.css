@@ -721,12 +721,36 @@ img {
 
 }
 
+.card_game_2001 {
+    width: 100%;
+    height: 100%;
+
+    background-color: #7CAF39;
+    /* background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%); */
+
+}
+
 .card_game_1005_re {
     width: 100%;
     height: 100%;
 
     background-color: #CAB5E2;
     /* background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%); */
+}
+
+.card_game_2001_re {
+    width: 100%;
+    height: 100%;
+
+    background-color: #F9E470;
+    /* background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%); */
+}
+
+.card_game_20023_re {
+    width: 100%;
+    height: 100%;
+
+    background-color: #7CAF39;
 }
 
 .card_game_main {
@@ -738,6 +762,18 @@ img {
     padding: 0px;
     /* height: 100px; */
     height: 33.33vh;
+}
+
+.col_game_20023 {
+    padding: 0px;
+    /* height: 100px; */
+    height: 53vh;
+}
+
+.col_game_20023_card {
+    padding: 0px;
+    /* height: 100px; */
+    height: 41vh;
 }
 
 .text_Label_1005 {
@@ -786,3 +822,394 @@ a {
 /* .img_marker{
     width: 18vw;
 } */
+
+.fix_btn_2001 {
+    position: absolute;
+    top: 4%;
+    left: 6%;
+}
+
+.fix_btn_2002 {
+    position: absolute;
+    top: 23%;
+    left: 6%;
+}
+
+.fix_btn_2003 {
+    position: absolute;
+    top: 41%;
+    left: 6%;
+}
+
+.fix_btn_2004 {
+    position: absolute;
+    top: 61%;
+    left: 6%;
+}
+
+.fix_btn_2005 {
+    position: absolute;
+    top: 82%;
+    left: 6%;
+}
+
+.fix_btn_2002_1 {
+    position: absolute;
+    top: 79%;
+    left: 90%;
+}
+
+.fix_btn_2003_1 {
+    position: absolute;
+    top: 79%;
+    left: 90%;
+}
+
+.fix_btn_2003_2 {
+    position: absolute;
+    top: 85%;
+    left: 90%;
+}
+
+.fix_btn_2007_1 {
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+
+.fix_btn_2007_2 {
+    position: absolute;
+    top: 42%;
+    left: 39%;
+}
+
+.fix_btn_2007_3 {
+    position: absolute;
+    top: 32%;
+    left: 61%;
+}
+
+.fix_btn_2007_4 {
+    position: absolute;
+    top: 53%;
+    left: 66.5%;
+}
+
+.fix_btn_2008_1 {
+    position: absolute;
+    top: 58%;
+    left: 60%;
+}
+
+.fix_btn_2008_2 {
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}
+
+.fix_btn_2008_3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.fix_btn_2008_12_1 {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+.fix_btn_2008_12_2 {
+    position: absolute;
+    top: 55%;
+    left: 58%;
+}
+
+.fix_btn_2008_13_1 {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+}
+
+.fix_btn_2008_14_1 {
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+
+.fix_btn_2008_17_1 {
+    position: absolute;
+    top: 26%;
+    left: 52%;
+}
+
+.fix_btn_2008_18_1 {
+    position: absolute;
+    top: 65%;
+    left: 13%;
+}
+
+.fix_btn_2008_18_2 {
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+
+.fix_btn_2008_18_3 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+
+.fix_btn_2008_19_1 {
+    position: absolute;
+    top: 85%;
+    left: 70%;
+}
+
+.fix_btn_2008_20_1 {
+    position: absolute;
+    top: 63%;
+    left: 35%;
+}
+
+.fix_btn_2008_20_2 {
+    position: absolute;
+    top: 63%;
+    left: 45%;
+}
+
+.fix_btn_2008_21_1 {
+    position: absolute;
+    top: 22%;
+    left: 78%;
+}
+
+.fix_btn_2008_21_2 {
+    position: absolute;
+    top: 22%;
+    left: 70%;
+}
+
+.fix_btn_2008_22_1 {
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+
+.fix_btn_2008_22_2 {
+    position: absolute;
+    top: 83%;
+    left: 85%;
+}
+
+.fix_btn_2008_24_1 {
+    position: absolute;
+    top: 85%;
+    left: 35%;
+}
+
+.fix_btn_2008_24_2 {
+    position: absolute;
+    top: 85%;
+    left: 45%;
+}
+
+.cardgame25 {
+    margin-top: 23vw;
+}
+
+.cardgamein25 {
+    padding: 0px;
+}
+
+.modalCT {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.icon_2001 {
+    /* animation: example 3s infinite; */
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.icon_2001:hover {
+    border: 3px solid #fab005;
+}
+
+@keyframes example {
+    0% {
+        border-bottom: 5px solid rgb(255, 86, 86);
+    }
+
+    50% {
+        border-bottom: 5px solid transparent;
+    }
+
+    100% {
+        border-bottom: 5px solid rgb(255, 86, 86);
+    }
+}
+
+/* หากหน้าจอมีความกว้างไม่เกิน 600px */
+@media (max-width: 600px) {
+    .h3_25 {
+        font-size: 20px;
+    }
+}
+
+/* หากหน้าจอมีความกว้างไม่เกิน 400px */
+@media (max-width: 400px) {
+    .h3_25 {
+        font-size: 12px;
+    }
+}
+
+.btn_game_5001_1 {
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    /* border: 1px solid red; */
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.btn_game_5001_2 {
+    position: absolute;
+    top: 32%;
+    left: 8.5%;
+    /* border: 1px solid red; */
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.btn_game_5001_3 {
+    position: absolute;
+    top: 6.5%;
+    left: 25.5%;
+    /* border: 1px solid red; */
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.btn_game_5001_4 {
+    position: absolute;
+    top: 4%;
+    left: 49.5%;
+    /* border: 1px solid red; */
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.btn_game_5001_5 {
+    position: absolute;
+    top: 10%;
+    left: 73%;
+    /* border: 1px solid red; */
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.label5001 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.btn_game_5002 {
+    position: absolute;
+    top: 47.5%;
+    left: 67.5%;
+    width: 10.5vw;
+    height: 10.5vw;
+    border-radius: 50%;
+}
+
+/* หากหน้าจอมีความกว้างไม่เกิน 600px */
+@media (max-width: 800px) {
+    .label5001 {
+        font-size: 30px;
+    }
+}
+
+/* หากหน้าจอมีความกว้างไม่เกิน 400px */
+@media (max-width: 400px) {
+    .label5001 {
+        font-size: 12px;
+    }
+}
+
+.icon_5 {
+    /* animation: example 3s infinite; */
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.icon_5:hover {
+    border: 3px solid #C6E19F;
+}
+
+.fix_btn_5002001 {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.fix_btn_5003001 {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+}
+
+.fix_btn_5005001 {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.fix_btn_5006001 {
+    position: absolute;
+    top: 47%;
+    left: 80%;
+}
+
+.fix_btn_5007001 {
+    position: absolute;
+    top: 15%;
+    left: 43%;
+}
+
+.fix_btn_5008001 {
+    position: absolute;
+    top: 87%;
+    left: 85%;
+}
+
+.fix_btn_5009_1{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}
+
+.fix_btn_50010_1{
+    position: absolute;
+    top: 55%;
+    left: 21%;
+    /* border: 1px solid red; */
+    width: 10vw;
+    height: 10vw;
+}

@@ -90,7 +90,9 @@
               <span class="book-voters">1.987 voters</span>
             </div>
             <div class="book-sum">The hunt for each splinter of Paul's soul sends Marguerite racing through a war-torn San Francisco.</div>
-            <div class="book-see book-blue">See The Book</div>
+            <a href="./book5/" style="text-decoration: none;">
+              <div class="book-see">อ่านหนังสือ</div>
+            </a>
           </div>
         </div>
         <div class="book-cell">
@@ -142,7 +144,9 @@
               <span class="book-voters">1.987 voters</span>
             </div>
             <div class="book-sum">The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career.</div>
-            <div class="book-see book-yellow">See The Book</div>
+            <a href="./book4/" style="text-decoration: none;">
+              <div class="book-see">อ่านหนังสือ</div>
+            </a>
           </div>
         </div>
         <div class="book-cell">
@@ -259,7 +263,7 @@
         <div class="book-cards">
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="./assets/image_4/back.png" alt="" class="book-card-img">
+              <img src="./assets/image_4/52.png" alt="" class="book-card-img">
               <div class="card-content">
                 <div class="book-name">นายแรง</div>
                 <div class="book-by">by Richard Russo</div>
@@ -398,7 +402,7 @@
           </div>
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="./assets/image_5/back.png" alt="" class="book-card-img">
+              <img src="./assets/image_5/22.png" alt="" class="book-card-img">
               <div class="card-content">
                 <div class="book-name">หมาป่ากับต้นไม้ศักดิ์สิทธิ์</div>
                 <div class="book-by">by Darcey Steinke</div>

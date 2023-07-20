@@ -18,7 +18,7 @@
     // Array Push File
     $Array_Push_file = array(
         // Develop !!!!!!!!
-        // "show_game_5_50010",
+        // "show_game_5_50012",
 
         "01.png",
         "02.png",
@@ -48,8 +48,10 @@
         "show_game_5_5009",
         // 18
         "show_game_5_50010",
-        "19.png",
-        "20.png",
+        // 19
+        "show_game_5_50011",
+        // 20
+        "show_game_5_50012",
         "21.png",
         "22.png"
     );
@@ -64,7 +66,9 @@
         "show_game_5_5007",
         "show_game_5_5008",
         "show_game_5_5009",
-        "show_game_5_50010"
+        "show_game_5_50010",
+        "show_game_5_50011",
+        "show_game_5_50012"
     );
 
     // print_r($Array_Push_file);

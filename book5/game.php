@@ -25,7 +25,9 @@ if (isset($_GET['show_game_5_5001'])) {
 
                 <b class="label5001" id="label5001" hidden></b>
 
-                <a type="button" class="btn_game_5002" data-bs-toggle="modal" data-bs-target="#Modal5001"></a>
+                <a type="button" class="btn_game_5002 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal5001">
+                    <img class="icon_5" style="width: 11vw;" src="../assets/icon/3001.png" alt="">
+                </a>
                 <!-- Modal5001 -->
                 <div class="modal fade" id="Modal5001" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -56,7 +58,7 @@ if (isset($_GET['show_game_5_5002'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/05.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_5002001" data-bs-toggle="modal" data-bs-target="#Modal5002001">
+                <a type="button" class="fix_btn_5002001 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal5002001">
                     <img class="icon_5" style="width: 5vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal5002001 -->
@@ -95,7 +97,7 @@ if (isset($_GET['show_game_5_5003'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/07.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_5003001" data-bs-toggle="modal" data-bs-target="#Modal5002001">
+                <a type="button" class="fix_btn_5003001 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal5002001">
                     <img class="icon_5" style="width: 5vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal5002001 -->
@@ -134,7 +136,7 @@ if (isset($_GET['show_game_5_5004'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/09.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_5003001" data-bs-toggle="modal" data-bs-target="#Modal5002001">
+                <a type="button" class="fix_btn_5003001 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal5002001">
                     <img class="icon_5" style="width: 5vw;" src="../assets/icon/4008007.png" alt="">
                 </a>
                 <!-- Modal5002001 -->
@@ -167,7 +169,7 @@ if (isset($_GET['show_game_5_5005'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/10.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_5005001" data-bs-toggle="modal" data-bs-target="#Modal5002001">
+                <a type="button" class="fix_btn_5005001 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal5002001">
                     <img class="icon_5" style="width: 5vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal5002001 -->
@@ -200,7 +202,7 @@ if (isset($_GET['show_game_5_5006'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/12.png');">
             <div class="card-body">
 
-                <a onclick="playSound5006()" type="button" class="fix_btn_5006001">
+                <a onclick="playSound5006()" type="button" class="fix_btn_5006001 btn_set_main">
                     <img class="icon_5" style="width: 5vw;" src="../assets/icon/5001.png" alt="">
                 </a>
                 <audio id="sound5006" src="../assets/image_5_sub/5006.mp3"></audio>
@@ -219,7 +221,7 @@ if (isset($_GET['show_game_5_5007'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/14.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_5007001" data-bs-toggle="modal" data-bs-target="#Modal5002001">
+                <a type="button" class="fix_btn_5007001 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal5002001">
                     <img class="icon_5" style="width: 10vw;" src="../assets/icon/3001.png" alt="">
                 </a>
                 <!-- Modal5002001 -->
@@ -252,7 +254,7 @@ if (isset($_GET['show_game_5_5008'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/15.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_5008001" data-bs-toggle="modal" data-bs-target="#Modal5002001">
+                <a type="button" class="fix_btn_5008001 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal5002001">
                     <img class="icon_5" style="width: 5vw;" src="../assets/icon/4008007.png" alt="">
                 </a>
                 <!-- Modal5002001 -->
@@ -300,7 +302,7 @@ if (isset($_GET['show_game_5_5009'])) {
                     </div>
                 </div>
 
-                <a type="button" class="fix_btn_5009_1" data-bs-toggle="modal" data-bs-target="#Modal2004">
+                <a type="button" class="fix_btn_5009_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2004">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008006.png" alt="">
                 </a>
                 <!-- Modal2004 -->
@@ -333,7 +335,9 @@ if (isset($_GET['show_game_5_50010'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/18.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_50010_1" data-bs-toggle="modal" data-bs-target="#Modal2004"></a>
+                <a type="button" class="fix_btn_50010_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2004">
+                    <img class="icon_5" style="width: 11vw;" src="../assets/icon/3001.png" alt="">
+                </a>
                 <!-- Modal2004 -->
                 <div class="modal fade" id="Modal2004" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
@@ -349,6 +353,235 @@ if (isset($_GET['show_game_5_50010'])) {
                     </div>
                 </div>
                 <!-- /Modal2004 -->
+
+            </div>
+        </div>
+    </center>
+<?php
+}
+?>
+<?php
+// show_game_5_50011
+if (isset($_GET['show_game_5_50011'])) {
+?>
+    <center>
+        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/19.png');">
+            <div class="card-body">
+
+                <style>
+                    #A1 {
+                        position: absolute;
+                        top: 50%;
+                        left: 30%;
+                    }
+
+                    #A2 {
+                        position: absolute;
+                        top: 66%;
+                        left: 48%;
+                    }
+
+                    #B1 {
+                        position: absolute;
+                        top: 70%;
+                        left: 30%;
+                    }
+
+                    #B2 {
+                        position: absolute;
+                        top: 86%;
+                        left: 48%;
+                    }
+
+                    #C1 {
+                        position: absolute;
+                        top: 90%;
+                        left: 30%;
+                    }
+
+                    #C2 {
+                        position: absolute;
+                        top: 47%;
+                        left: 48%;
+                    }
+                </style>
+
+                <a id="A1" onclick="showALine('A1','A2','myLine')">
+                    <img class="icon_5" style="width: 3vw;" src="../assets/icon/5002.png" alt="">
+                </a>
+                <a id="A2">
+                    <img class="icon_5" style="width: 3vw;" src="../assets/icon/5002.png" alt="">
+                </a>
+
+                <a id="B1" onclick="showALine('B1','B2','myLine2')">
+                    <img class="icon_5" style="width: 3vw;" src="../assets/icon/5002.png" alt="">
+                </a>
+                <a id="B2">
+                    <img class="icon_5" style="width: 3vw;" src="../assets/icon/5002.png" alt="">
+                </a>
+
+                <a id="C1" onclick="showALine('C1','C2','myLine3')">
+                    <img class="icon_5" style="width: 3vw;" src="../assets/icon/5002.png" alt="">
+                </a>
+                <a id="C2">
+                    <img class="icon_5" style="width: 3vw;" src="../assets/icon/5002.png" alt="">
+                </a>
+
+                <div id="myLine" style="background-color: black; position: absolute; height: 2px;"></div>
+                <div id="myLine2" style="background-color: black; position: absolute; height: 2px;"></div>
+                <div id="myLine3" style="background-color: black; position: absolute; height: 2px;"></div>
+
+                <script>
+                    function connect(A1, A2, line) {
+                        var A1Rect = A1.getBoundingClientRect();
+                        var A2Rect = A2.getBoundingClientRect();
+
+                        var A1CentreX = A1Rect.left + A1Rect.width / 2;
+                        var A1CentreY = A1Rect.top + A1Rect.height / 2;
+                        var A2CentreX = A2Rect.left + A2Rect.width / 2;
+                        var A2CentreY = A2Rect.top + A2Rect.height / 2;
+
+                        line.style.width = Math.sqrt(Math.pow(A2CentreX - A1CentreX, 2) + Math.pow(A2CentreY - A1CentreY, 2)) + 'px';
+
+                        var angle = Math.atan2(A2CentreY - A1CentreY, A2CentreX - A1CentreX) * 180 / Math.PI;
+                        line.style.transform = 'rotate(' + angle + 'deg)';
+
+                        line.style.top = (A1CentreY + A2CentreY) / 2 - 1 + 'px'; // "- 1" is to offset the line's own height
+                        line.style.left = (A1CentreX + A2CentreX) / 2 - line.offsetWidth / 2 + 'px';
+                    }
+
+                    window.onload = function() {
+                        var lines = ['myLine', 'myLine2', 'myLine3'];
+                        var pairs = [
+                            ['A1', 'A2'],
+                            ['B1', 'B2'],
+                            ['C1', 'C2']
+                        ];
+
+                        lines.forEach(function(lineId, index) {
+                            var A1 = document.getElementById(pairs[index][0]);
+                            var A2 = document.getElementById(pairs[index][1]);
+                            var line = document.getElementById(lineId);
+                            line.style.visibility = "hidden";
+
+                            connect(A1, A2, line);
+                        });
+                    };
+
+                    window.onresize = function() {
+                        var lines = ['myLine', 'myLine2', 'myLine3'];
+                        var pairs = [
+                            ['A1', 'A2'],
+                            ['B1', 'B2'],
+                            ['C1', 'C2']
+                        ];
+
+                        lines.forEach(function(lineId, index) {
+                            var A1 = document.getElementById(pairs[index][0]);
+                            var A2 = document.getElementById(pairs[index][1]);
+                            var line = document.getElementById(lineId);
+
+                            connect(A1, A2, line);
+                        });
+                    };
+
+                    function showALine(id1, id2, lineId) {
+                        var A1 = document.getElementById(id1);
+                        var A2 = document.getElementById(id2);
+                        var line = document.getElementById(lineId);
+
+                        connect(A1, A2, line);
+                        line.style.visibility = "visible";
+                    }
+                </script>
+
+            </div>
+        </div>
+    </center>
+<?php
+}
+?>
+<?php
+// show_game_5_50012
+if (isset($_GET['show_game_5_50012'])) {
+?>
+    <center>
+        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_5/20.png');">
+            <div class="card-body">
+
+                <style>
+                    .card_game_50012 {
+                        height: 70vh;
+                    }
+
+                    .cardgame50012 {
+                        border: 3px solid #ffabab;
+                        background-color: #ffabab;
+                        width: 30vw;
+                        height: 30vw;
+                        border-radius: 50%;
+                    }
+
+                    #shownumber12{
+                        font-size: 80px;
+                    }
+                </style>
+
+                <div class="card_game_50012">
+                    <center>
+                        <div class="col-4">
+                            <div class="card cardgame50012 mt-5">
+                                <div class="card-body d-flex justify-content-center align-items-center">
+                                    <h1>
+                                        <b id="shownumber12">
+                                            <h3>ผู้โชคดีคือ...</h3>
+                                        </b>
+                                    </h1>
+                                </div>
+                            </div>
+                            <button onclick="random12()" class="btn_set_main mt-3 btn btn-lg btn-danger"><span class="iconify" data-icon="fad:random-1dice"></span> สุ่ม</button>
+                        </div>
+                    </center>
+
+                    <script>
+                        let myInterval;
+                        let numbers;
+
+                        function random12() {
+                            // Clear interval if it already exists
+                            if (myInterval) {
+                                clearInterval(myInterval);
+                            }
+
+                            // Initialize or re-initialize the numbers array
+                            numbers = Array.from({
+                                length: 30
+                            }, (_, i) => i + 1);
+
+                            // Generate a new random number every 0.2 seconds
+                            myInterval = setInterval(function() {
+                                // Get a random index
+                                let randomIndex = Math.floor(Math.random() * numbers.length);
+                                let randomNumber = numbers[randomIndex];
+
+                                // Remove the number from the array
+                                numbers.splice(randomIndex, 1);
+
+                                // Show the number in the HTML
+                                document.getElementById('shownumber12').innerHTML = randomNumber;
+                            }, 100); // 200 milliseconds = 0.2 seconds
+
+                            // After 3 seconds, stop the interval
+                            setTimeout(function() {
+                                clearInterval(myInterval);
+                            }, 3000); // 3000 milliseconds = 3 seconds
+                        }
+                    </script>
+
+
+
+
+                </div>
 
             </div>
         </div>

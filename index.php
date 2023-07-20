@@ -118,7 +118,9 @@
               <span class="book-voters">1.987 voters</span>
             </div>
             <div class="book-sum">In Tokyo, sixteen-year-old Nao has decided there’s only one escape from her aching loneliness and her classmates’ bullying.</div>
-            <div class="book-see book-pink">See The Book</div>
+            <a href="./book2/" style="text-decoration: none;">
+              <div class="book-see">อ่านหนังสือ</div>
+            </a>
           </div>
         </div>
         <div class="book-cell">
@@ -365,7 +367,7 @@
           </div>
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="./assets/image_2/back.png" alt="" class="book-card-img">
+              <img src="./assets/image_2/22.png" alt="" class="book-card-img">
               <div class="card-content">
                 <div class="book-name">เกาะหนู เกาะแมว</div>
                 <div class="book-by">by James Lasdun</div>

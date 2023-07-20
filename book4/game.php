@@ -17,19 +17,19 @@ if (isset($_GET['show_game_2_2001'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/04.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_2001" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2001 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 10vw;" src="../assets/icon/2001.png" alt="">
                 </a>
-                <a type="button" class="fix_btn_2002" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2002 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 10vw;" src="../assets/icon/2002.png" alt="">
                 </a>
-                <a type="button" class="fix_btn_2003" data-bs-toggle="modal" data-bs-target="#Modal2003">
+                <a type="button" class="fix_btn_2003 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2003">
                     <img class="icon_2001" style="width: 10vw;" src="../assets/icon/2003.png" alt="">
                 </a>
-                <a type="button" class="fix_btn_2004" data-bs-toggle="modal" data-bs-target="#Modal2004">
+                <a type="button" class="fix_btn_2004 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2004">
                     <img class="icon_2001" style="width: 10vw;" src="../assets/icon/2004.png" alt="">
                 </a>
-                <a type="button" class="fix_btn_2005" data-bs-toggle="modal" data-bs-target="#Modal2005">
+                <a type="button" class="fix_btn_2005 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2005">
                     <img class="icon_2001" style="width: 10vw;" src="../assets/icon/2005.png" alt="">
                 </a>
 
@@ -122,7 +122,7 @@ if (isset($_GET['show_game_2_2002'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/05.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2002_1" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2002_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 9vw;background-image: radial-gradient(circle, #fab005 5%, rgba(255, 135, 135, 0) 95%);" src="../assets/icon/200101.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -157,7 +157,7 @@ if (isset($_GET['show_game_2_2003'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/07.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2003_1" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2003_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 9vw;" src="../assets/icon/3001.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -192,7 +192,7 @@ if (isset($_GET['show_game_2_2004'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/09.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2003_1" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2003_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 9vw;" src="../assets/icon/3001.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -341,7 +341,7 @@ if (isset($_GET['show_game_2_2006'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/15.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2003_1" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2003_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 9vw;" src="../assets/icon/3001.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -382,7 +382,7 @@ if (isset($_GET['show_game_2_2007'])) {
                 <a type="button" data-bs-toggle="modal" data-bs-target="#Modal2007_3" class="fix_btn_2007_3" style="width: 6vw;height: 9vw;"></a>
                 <a type="button" data-bs-toggle="modal" data-bs-target="#Modal2007_4" class="fix_btn_2007_4" style="width: 6vw;height: 9vw;"></a>
 
-                <a type="button" class="fix_btn_2003_2" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2003_2 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 9vw;" src="../assets/icon/3001.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -397,6 +397,8 @@ if (isset($_GET['show_game_2_2007'])) {
                                 <h3>
                                     <b>
                                         จากข้อความข้างต้น นักเรียนคิดว่า นายแรงเป็นคนเช่นไร
+                                        <hr>
+                                        <small class="text-danger">* ลองกดที่ตัวนายแรง</small>
                                     </b>
                                 </h3>
                             </div>
@@ -493,7 +495,7 @@ if (isset($_GET['show_game_2_2008'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/19.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_1" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2008_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -524,7 +526,7 @@ if (isset($_GET['show_game_2_2009'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/20.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_1" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2008_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -555,7 +557,7 @@ if (isset($_GET['show_game_2_20010'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/21.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_2" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2008_2 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 7vw;" src="../assets/icon/4008002.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -586,7 +588,7 @@ if (isset($_GET['show_game_2_20011'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/22.png');">
             <div class="card-body">
-                <a onclick="playsound11()" type="button" class="fix_btn_2008_3" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a onclick="playsound11()" type="button" class="fix_btn_2008_3 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 7vw;" src="../assets/icon/4008004.png" alt="">
                 </a>
             </div>
@@ -602,7 +604,7 @@ if (isset($_GET['show_game_2_20012'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/23.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_12_1" data-bs-toggle="modal" data-bs-target="#Modal2001">
+                <a type="button" class="fix_btn_2008_12_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2001">
                     <img class="icon_2001" style="width: 7vw;" src="../assets/icon/4008002.png" alt="">
                 </a>
                 <!-- Modal2001 -->
@@ -620,7 +622,7 @@ if (isset($_GET['show_game_2_20012'])) {
                     </div>
                 </div>
                 <!-- /Modal2001 -->
-                <a type="button" class="fix_btn_2008_12_2" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_12_2 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -651,7 +653,7 @@ if (isset($_GET['show_game_2_20013'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/24.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_13_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_13_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -682,7 +684,7 @@ if (isset($_GET['show_game_2_20014'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/28.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_14_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_14_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 9vw;" src="../assets/icon/4008005.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -713,7 +715,7 @@ if (isset($_GET['show_game_2_20015'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/29.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_14_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_14_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 9vw;" src="../assets/icon/4008002.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -744,7 +746,7 @@ if (isset($_GET['show_game_2_20016'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/32.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_14_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_14_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 9vw;" src="../assets/icon/4008006.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -775,7 +777,7 @@ if (isset($_GET['show_game_2_20017'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/38.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_17_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_17_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 15vw;" src="../assets/icon/3001.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -806,7 +808,7 @@ if (isset($_GET['show_game_2_20018'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/39.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_18_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_18_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 8vw;" src="../assets/icon/4008007.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -824,7 +826,7 @@ if (isset($_GET['show_game_2_20018'])) {
                     </div>
                 </div>
                 <!-- /Modal2002 -->
-                <a type="button" class="fix_btn_2008_18_2" data-bs-toggle="modal" data-bs-target="#Modal2003">
+                <a type="button" class="fix_btn_2008_18_2 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2003">
                     <img class="icon_2001" style="width: 8vw;" src="../assets/icon/4008007.png" alt="">
                 </a>
                 <!-- Modal2003 -->
@@ -842,7 +844,7 @@ if (isset($_GET['show_game_2_20018'])) {
                     </div>
                 </div>
                 <!-- /Modal2003 -->
-                <a type="button" class="fix_btn_2008_18_3" data-bs-toggle="modal" data-bs-target="#Modal2004">
+                <a type="button" class="fix_btn_2008_18_3 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2004">
                     <img class="icon_2001" style="width: 8vw;" src="../assets/icon/4008007.png" alt="">
                 </a>
                 <!-- Modal2004 -->
@@ -877,7 +879,7 @@ if (isset($_GET['show_game_2_20019'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/40.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_19_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_19_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 8vw;" src="../assets/icon/4008007.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -908,7 +910,7 @@ if (isset($_GET['show_game_2_20020'])) {
     <center>
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/41.png');">
             <div class="card-body">
-                <a type="button" class="fix_btn_2008_20_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_20_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 5vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -926,7 +928,7 @@ if (isset($_GET['show_game_2_20020'])) {
                     </div>
                 </div>
                 <!-- /Modal2002 -->
-                <a type="button" class="fix_btn_2008_20_2" data-bs-toggle="modal" data-bs-target="#Modal2003">
+                <a type="button" class="fix_btn_2008_20_2 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2003">
                     <img class="icon_2001" style="width: 5vw;" src="../assets/icon/4008006.png" alt="">
                 </a>
                 <!-- Modal2003 -->
@@ -960,11 +962,11 @@ if (isset($_GET['show_game_2_20021'])) {
                 <div class="money-rain" id="money-rain" hidden>
                     <!-- ตัวองค์ประกอบอื่น ๆ ที่คุณต้องการให้เหมือนเงินตกลงมาจากฟ้า -->
                 </div>
-                <a type="button" class="fix_btn_2008_21_1" onclick="On_Money_Drop()">
+                <a type="button" class="fix_btn_2008_21_1 btn_set_main" onclick="On_Money_Drop()">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008008.png" alt="">
                 </a>
 
-                <a type="button" class="fix_btn_2008_21_2" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_21_2 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -997,7 +999,7 @@ if (isset($_GET['show_game_2_20022'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/46.png');">
             <div class="card-body">
 
-                <a type="button" class="fix_btn_2008_22_1" data-bs-toggle="modal" data-bs-target="#Modal2002">
+                <a type="button" class="fix_btn_2008_22_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2002">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008001.png" alt="">
                 </a>
                 <!-- Modal2002 -->
@@ -1022,7 +1024,7 @@ if (isset($_GET['show_game_2_20022'])) {
                     </div>
                 </div>
                 <!-- /Modal2002 -->
-                <a type="button" class="fix_btn_2008_22_2" data-bs-toggle="modal" data-bs-target="#Modal2003">
+                <a type="button" class="fix_btn_2008_22_2 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2003">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008006.png" alt="">
                 </a>
                 <!-- Modal2003 -->
@@ -1082,7 +1084,7 @@ if (isset($_GET['show_game_2_20024'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_4/49.png');">
             <div class="card-body" style="padding: 0px;">
 
-                <a type="button" class="fix_btn_2008_24_1" data-bs-toggle="modal" data-bs-target="#Modal2003">
+                <a type="button" class="fix_btn_2008_24_1 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2003">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008005.png" alt="">
                 </a>
                 <!-- Modal2003 -->
@@ -1101,7 +1103,7 @@ if (isset($_GET['show_game_2_20024'])) {
                 </div>
                 <!-- /Modal2003 -->
 
-                <a type="button" class="fix_btn_2008_24_2" data-bs-toggle="modal" data-bs-target="#Modal2004">
+                <a type="button" class="fix_btn_2008_24_2 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal2004">
                     <img class="icon_2001" style="width: 6vw;" src="../assets/icon/4008009.png" alt="">
                 </a>
                 <!-- Modal2004 -->
@@ -1159,6 +1161,15 @@ if (isset($_GET['show_game_2_20025'])) {
                     </a>
                 </div>
 
+                <audio id="sound25" src="../assets/image_4_sub/9true.mp3"></audio>
+
+                <div class="pyro" hidden id="showFireworks">
+                    <div class="before"></div>
+                    <div class="after"></div>
+                </div>
+
+
+
             </div>
         </div>
     </center>
@@ -1181,6 +1192,12 @@ if (isset($_GET['show_game_2_20025'])) {
 
     function openlabelresult25() {
         document.getElementById("labelresult25").innerHTML = "นายแรง"
+
+        let sound = document.getElementById('sound25');
+        sound.volume = 1.0; // แก้ไขระดับเสียงตามที่คุณต้องการ
+        sound.play();
+
+        document.getElementById("showFireworks").hidden = false;
     }
 
     function open_label(value) {

@@ -562,8 +562,81 @@ if (isset($_GET['show_game_2_20013'])) {
         <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_2/19.png');">
             <div class="card-body">
 
-                
+                <a onclick="play_success()" type="button" class="fix_btn_20013001">
+                    <img class="icon_2001" style="width: 5vw;" src="../assets/icon/20013001.png" alt="">
+                </a>
+                <a onclick="play_wrong()" type="button" class="fix_btn_20013002">
+                    <img class="icon_2001" style="width: 5vw;" src="../assets/icon/20013002.png" alt="">
+                </a>
 
+                <a onclick="play_wrong()" type="button" class="fix_btn_20013003">
+                    <img class="icon_2001" style="width: 5vw;" src="../assets/icon/20013001.png" alt="">
+                </a>
+                <a onclick="play_success()" type="button" class="fix_btn_20013004">
+                    <img class="icon_2001" style="width: 5vw;" src="../assets/icon/20013002.png" alt="">
+                </a>
+
+                <a onclick="play_success()" type="button" class="fix_btn_20013005">
+                    <img class="icon_2001" style="width: 5vw;" src="../assets/icon/20013001.png" alt="">
+                </a>
+                <a onclick="play_wrong()" type="button" class="fix_btn_20013006">
+                    <img class="icon_2001" style="width: 5vw;" src="../assets/icon/20013002.png" alt="">
+                </a>
+
+                <audio id="myAudiosuccess" src="../assets/image_1_sub/9true.mp3" preload="auto"></audio>
+                <audio id="myAudiowrong" src="../assets/image_1_sub/9false.mp3" preload="auto"></audio>
+
+            </div>
+        </div>
+    </center>
+<?php
+}
+?>
+<?php
+// show_game_2_20014
+if (isset($_GET['show_game_2_20014'])) {
+?>
+    <center>
+        <div class="card card_game_main card_game" id="cardElement" style="background-image: url('../assets/image_2/20.png');">
+            <div class="card-body">
+
+                <a type="button" class="fix_btn_20014001 btn_set_main" data-bs-toggle="modal" data-bs-target="#Modal5002001">
+                    <img class="icon_5" style="width: 10vw;" src="../assets/icon/3001.png" alt="">
+                </a>
+                <!-- Modal5002001 -->
+                <div class="modal fade" id="Modal5002001" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="border:  3px solid #6888A1;">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5 " id="exampleModalLabel">คำถามชวนคิด</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h5><b>สถานที่ใดบ้างที่ปรากฏอยู่ในนิทาน<br><br>เรื่อง "เกาะหนู เกาะแมว"</b></h5>
+                                <hr>
+                                <h5 class="text-danger">* ลองกดที่หัวใจดูสิ <span class="iconify" data-icon="ph:heart-fill"></span></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Modal5002001 -->
+
+                <a onclick="result20014_true('1')" type="button" class="fix_btn_20014002"></a>
+                <a onclick="result20014_true('2')" type="button" class="fix_btn_20014003"></a>
+                <a onclick="result20014_false('3')" type="button" class="fix_btn_20014004"></a>
+                <a onclick="result20014_false('4')" type="button" class="fix_btn_20014005"></a>
+                <a onclick="result20014_true('5')" type="button" class="fix_btn_20014006"></a>
+                <a onclick="result20014_true('6')" type="button" class="fix_btn_20014007"></a>
+
+                <img hidden id="img_result_20014_1" class="img_result_20014_1" style="width: 7vw;" src="../assets/icon/20013001.png" alt="">
+                <img hidden id="img_result_20014_2" class="img_result_20014_2" style="width: 7vw;" src="../assets/icon/20013001.png" alt="">
+                <img hidden id="img_result_20014_3" class="img_result_20014_3" style="width: 7vw;" src="../assets/icon/20013002.png" alt="">
+                <img hidden id="img_result_20014_4" class="img_result_20014_4" style="width: 7vw;" src="../assets/icon/20013002.png" alt="">
+                <img hidden id="img_result_20014_5" class="img_result_20014_5" style="width: 7vw;" src="../assets/icon/20013001.png" alt="">
+                <img hidden id="img_result_20014_6" class="img_result_20014_6" style="width: 7vw;" src="../assets/icon/20013001.png" alt="">
+
+                <audio id="myAudiosuccess" src="../assets/image_1_sub/9true.mp3" preload="auto"></audio>
+                <audio id="myAudiowrong" src="../assets/image_1_sub/9false.mp3" preload="auto"></audio>
             </div>
         </div>
     </center>
@@ -572,6 +645,18 @@ if (isset($_GET['show_game_2_20013'])) {
 ?>
 
 <script>
+    function result20014_true(value) {
+        document.getElementById("img_result_20014_" + value).hidden = false;
+
+        play_success();
+    }
+
+    function result20014_false(value) {
+        document.getElementById("img_result_20014_" + value).hidden = false;
+
+        play_wrong();
+    }
+
     function open_label_One() {
         document.getElementById("this_label_9").hidden = true;
     }
@@ -596,6 +681,16 @@ if (isset($_GET['show_game_2_20013'])) {
 
     function playSound5002(value) {
         var sound = document.getElementById("myAudio" + value);
+        sound.play();
+    }
+
+    function play_success() {
+        var sound = document.getElementById("myAudiosuccess");
+        sound.play();
+    }
+
+    function play_wrong() {
+        var sound = document.getElementById("myAudiowrong");
         sound.play();
     }
 </script>

@@ -18,7 +18,7 @@
     // Array Push File
     $Array_Push_file = array(
         // Develop !!!!!!!!
-        "show_game_2_20013",
+        // "show_game_2_20014",
 
         "01.png",
         "02.png",
@@ -52,7 +52,8 @@
         "show_game_2_20012",
         // 19
         "show_game_2_20013",
-        "20.png",
+        // 20
+        "show_game_2_20014",
         "21.png",
         "22.png"
     );
@@ -70,7 +71,8 @@
         "show_game_2_20010",
         "show_game_2_20011",
         "show_game_2_20012",
-        "show_game_2_20013"
+        "show_game_2_20013",
+        "show_game_2_20014"
     );
 
     // print_r($Array_Push_file);
@@ -122,11 +124,11 @@
         <div class="flip-book" id="demoBookExample">
 
             <!-- Start -->
-            <!-- <div class="page page-cover page-cover-top">
+            <div class="page page-cover page-cover-top">
                 <div class="page-content">
                     <img style="height: 100vw;" src="../assets/image_2/01.png" alt="">
                 </div>
-            </div> -->
+            </div>
             <!-- /Start -->
 
             <!-- Content -->

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>เขาทะนาน</title>
+    <title>เกาะหนู เกาะแมว</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css'>
     <link rel="stylesheet" href="./style.css">
@@ -18,61 +18,65 @@
     // Array Push File
     $Array_Push_file = array(
         // Develop !!!!!!!!
-        // "show_game_2_20014",
+        // "show_game_3_30014",
 
         "01.png",
         "02.png",
         "03.png",
         // 4
-        "show_game_2_2001",
+        "show_game_3_3001",
         // 5
-        "show_game_2_2002",
-        "06.png",
+        "show_game_3_3002",
+        // 6
+        "show_game_3_3003",
         // 7
-        "show_game_2_2003",
-        // 8
-        "show_game_2_2004",
-        "09.png",
+        "show_game_3_3004",
+        "08.png",
+        // 9
+        "show_game_3_3005",
         "10.png",
         // 11
-        "show_game_2_2005",
-        // 12
-        "show_game_2_2006",
+        "show_game_3_3006",
+        "12.png",
         // 13
-        "show_game_2_2007",
-        // 14
-        "show_game_2_2008",
-        // 15
-        "show_game_2_2009",
+        "show_game_3_3007",
+        "14.png",
+        "15.png",
         // 16
-        "show_game_2_20010",
+        "show_game_3_3008",
         // 17
-        "show_game_2_20011",
+        "show_game_3_3009",
         // 18
-        "show_game_2_20012",
+        "show_game_3_30010",
         // 19
-        "show_game_2_20013",
+        "show_game_3_30011",
         // 20
-        "show_game_2_20014",
+        "show_game_3_30012",
         "21.png",
-        "22.png"
+        "22.png",
+        // 23
+        "show_game_3_30013",
+        // 24
+        "show_game_3_30014",
+        "25.png",
+        "26.png"    
     );
 
     $Array_Game = array(
-        "show_game_2_2001",
-        "show_game_2_2002",
-        "show_game_2_2003",
-        "show_game_2_2004",
-        "show_game_2_2005",
-        "show_game_2_2006",
-        "show_game_2_2007",
-        "show_game_2_2008",
-        "show_game_2_2009",
-        "show_game_2_20010",
-        "show_game_2_20011",
-        "show_game_2_20012",
-        "show_game_2_20013",
-        "show_game_2_20014"
+        "show_game_3_3001",
+        "show_game_3_3002",
+        "show_game_3_3003",
+        "show_game_3_3004",
+        "show_game_3_3005",
+        "show_game_3_3006",
+        "show_game_3_3007",
+        "show_game_3_3008",
+        "show_game_3_3009",
+        "show_game_3_30010",
+        "show_game_3_30011",
+        "show_game_3_30012",
+        "show_game_3_30013",
+        "show_game_3_30014"
     );
 
     // print_r($Array_Push_file);
@@ -126,7 +130,7 @@
             <!-- Start -->
             <div class="page page-cover page-cover-top">
                 <div class="page-content">
-                    <img style="height: 100vw;" src="../assets/image_2/01.png" alt="">
+                    <img style="height: 100vw;" src="../assets/image_3/01.png" alt="">
                 </div>
             </div>
             <!-- /Start -->
@@ -138,7 +142,7 @@
 
                         <div class="page">
                             <div class="page-content">
-                                <img style="height: 100vw;" src="../assets/image_2/<?= $valueArray_Push_file ?>" alt="">
+                                <img style="height: 100vw;" src="../assets/image_3/<?= $valueArray_Push_file ?>" alt="">
 
 
                                 <div class="page-footer"><?= $keyArray_Push_file ?></div>

@@ -730,6 +730,15 @@ img {
 
 }
 
+.card_game_30014 {
+    width: 100%;
+    height: 100%;
+
+    background-color: #9ED5D6;
+    /* background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%); */
+
+}
+
 .card_game_2007 {
     width: 100%;
     height: 100%;
@@ -773,6 +782,13 @@ img {
     height: 100%;
 
     background-color: #ACE2F2;
+}
+
+.card_game_30014_re {
+    width: 100%;
+    height: 100%;
+
+    background-color: #F5FADE;
 }
 
 .card_game_main {
@@ -1693,7 +1709,7 @@ a {
     left: 20%;
 }
 
-.fix_btn_20013002{
+.fix_btn_20013002 {
     position: absolute;
     top: 54%;
     left: 27%;
@@ -1705,7 +1721,7 @@ a {
     left: 20%;
 }
 
-.fix_btn_20013004{
+.fix_btn_20013004 {
     position: absolute;
     top: 66%;
     left: 27%;
@@ -1717,19 +1733,19 @@ a {
     left: 20%;
 }
 
-.fix_btn_20013006{
+.fix_btn_20013006 {
     position: absolute;
     top: 77%;
     left: 27%;
 }
 
-.fix_btn_20014001{
+.fix_btn_20014001 {
     position: absolute;
     top: 60%;
     left: 50%;
 }
 
-.fix_btn_20014002{
+.fix_btn_20014002 {
     position: absolute;
     top: 11%;
     left: 11%;
@@ -1739,7 +1755,7 @@ a {
     border-radius: 50%;
 }
 
-.fix_btn_20014003{
+.fix_btn_20014003 {
     position: absolute;
     top: 4%;
     left: 46%;
@@ -1749,7 +1765,7 @@ a {
     border-radius: 50%;
 }
 
-.fix_btn_20014004{
+.fix_btn_20014004 {
     position: absolute;
     top: 33%;
     left: 35%;
@@ -1759,7 +1775,7 @@ a {
     border-radius: 50%;
 }
 
-.fix_btn_20014005{
+.fix_btn_20014005 {
     position: absolute;
     top: 24%;
     left: 63%;
@@ -1769,7 +1785,7 @@ a {
     border-radius: 50%;
 }
 
-.fix_btn_20014006{
+.fix_btn_20014006 {
     position: absolute;
     top: 54%;
     left: 18.5%;
@@ -1779,7 +1795,7 @@ a {
     border-radius: 50%;
 }
 
-.fix_btn_20014007{
+.fix_btn_20014007 {
     position: absolute;
     top: 55%;
     left: 72%;
@@ -1789,38 +1805,406 @@ a {
     border-radius: 50%;
 }
 
-.img_result_20014_1{
+.img_result_20014_1 {
     position: absolute;
     top: 27%;
     left: 15%;
 }
 
-.img_result_20014_2{
+.img_result_20014_2 {
     position: absolute;
     top: 20%;
     left: 52%;
 }
 
-.img_result_20014_3{
+.img_result_20014_3 {
     position: absolute;
     top: 49%;
-    left: 40%; 
+    left: 40%;
 }
 
-.img_result_20014_4{
+.img_result_20014_4 {
     position: absolute;
     top: 40%;
-    left: 65%; 
+    left: 65%;
 }
 
-.img_result_20014_5{
+.img_result_20014_5 {
     position: absolute;
     top: 70%;
     left: 25%;
 }
 
-.img_result_20014_6{
+.img_result_20014_6 {
     position: absolute;
     top: 70%;
-    left: 75%; 
+    left: 75%;
+}
+
+.fix_btn_3001001 {
+    position: absolute;
+    top: 60%;
+    left: 75%;
+}
+
+.label3001 {
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 4vw;
+    border-radius: 15px;
+    border: 2px dashed #1C6EA4;
+    color: #1C6EA4;
+}
+
+.label3001001 {
+    position: absolute;
+    top: 38%;
+    left: 16%;
+}
+
+.label3001002 {
+    position: absolute;
+    top: 38%;
+    left: 36%;
+}
+
+.label3001003 {
+    position: absolute;
+    top: 38%;
+    left: 64%;
+}
+
+.label3001004 {
+    position: absolute;
+    top: 85%;
+    left: 14%;
+}
+
+.label3001005 {
+    position: absolute;
+    top: 85%;
+    left: 40%;
+}
+
+.fix_btn_3002001 {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.fix_btn_3002002 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.fix_btn_3002003 {
+    position: absolute;
+    top: 20%;
+    left: 75%;
+}
+
+.fix_btn_3003001 {
+    position: absolute;
+    top: 65%;
+    left: 90%;
+}
+
+.fix_btn_3004001 {
+    position: absolute;
+    top: 82%;
+    left: 80%;
+}
+
+.fix_btn_3006001 {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+}
+
+.fix_btn_3007001 {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.fix_btn_3008001 {
+    position: absolute;
+    top: 17%;
+    left: 35%;
+}
+
+.fix_btn_3009001 {
+    position: absolute;
+    top: 17%;
+    left: 16%;
+}
+
+.fix_btn_3009002 {
+    position: absolute;
+    top: 17%;
+    left: 25%;
+}
+
+.fix_btn_30010001 {
+    position: absolute;
+    top: 17%;
+    left: 16%;
+}
+
+.fix_btn_30010002 {
+    position: absolute;
+    top: 17%;
+    left: 25%;
+}
+
+.fix_btn_30011001 {
+    position: absolute;
+    top: 91%;
+    left: 22%;
+}
+
+.fix_btn_30012001 {
+    position: absolute;
+    top: 2%;
+    left: 38%;
+    width: 15vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+
+
+.fix_img_30012001 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+.fix_btn_30012002 {
+    position: absolute;
+    top: 18%;
+    left: 4%;
+    width: 15vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    /* transform: rotate(-25deg); */
+}
+
+.fix_img_30012002 {
+    position: absolute;
+    top: 39%;
+    left: 9%;
+}
+
+.fix_btn_30012003 {
+    position: absolute;
+    top: 28%;
+    left: 26%;
+    width: 15vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    /* transform: rotate(-25deg); */
+}
+
+.fix_img_30012003 {
+    position: absolute;
+    top: 50%;
+    left: 30.5%;
+}
+
+.fix_btn_30012004 {
+    position: absolute;
+    top: 16%;
+    left: 53.5%;
+    width: 15vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    transform: rotate(25deg);
+}
+
+.fix_img_30012004 {
+    position: absolute;
+    top: 36%;
+    left: 55%;
+}
+
+.fix_btn_30012005 {
+    position: absolute;
+    top: 6%;
+    left: 75.5%;
+    width: 15vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    transform: rotate(-20deg);
+}
+
+.fix_img_30012005 {
+    position: absolute;
+    top: 30%;
+    left: 83%;
+}
+
+.fix_btn_30012006 {
+    position: absolute;
+    top: 57%;
+    left: 14%;
+    width: 15vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+
+.fix_img_30012006 {
+    position: absolute;
+    top: 80%;
+    left: 23%;
+}
+
+.fix_btn_30012007 {
+    position: absolute;
+    top: 39%;
+    left: 66%;
+    width: 15vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+
+.fix_img_30012007 {
+    position: absolute;
+    top: 60%;
+    left: 73%;
+}
+
+.fix_btn_30012008 {
+    position: absolute;
+    top: 53%;
+    left: 83%;
+    width: 15vw;
+    height: 20vw;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    /* transform: rotate(-25deg); */
+}
+
+.fix_img_30012008 {
+    position: absolute;
+    top: 76%;
+    left: 88%;
+}
+
+.fix_btn_1_30012001 {
+    position: absolute;
+    top: 64%;
+    left: 46%;
+}
+
+.label_30013001 {
+    position: absolute;
+    top: 56%;
+    left: 28%;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px dashed #4a6e3c;
+    color: #4a6e3c;
+    font-size: 3vw;
+}
+
+.label_30013001:hover{
+    border: 2px double #4a6e3c;
+    color: #4a6e3c;
+}
+
+.label_30013002{
+    position: absolute;
+    top: 56%;
+    left: 61%;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px dashed #8f545e;
+    color: #8f545e;
+    font-size: 3vw;
+}
+
+.label_30013002:hover{
+    border: 2px double #8f545e;
+    color: #8f545e;
+}
+
+.label_30013003{
+    position: absolute;
+    top: 83%;
+    left: 28%;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px dashed #7c732d;
+    color: #7c732d;
+    font-size: 3vw;
+}
+
+.label_30013003:hover{
+    border: 2px double #7c732d;
+    color: #7c732d;
+}
+
+
+.label_30013004{
+    position: absolute;
+    top: 83%;
+    left: 63%;
+    background-color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px dashed #285051;
+    color: #285051;
+    font-size: 3vw;
+}
+
+.label_30013004:hover{
+    border: 2px double #285051;
+    color: #285051;
+}
+
+.fix_img_30013001{
+    position: absolute;
+    top: 40%;
+    left: 42%; 
+}
+
+.fix_img_30013002{
+    position: absolute;
+    top: 40%;
+    left: 77%; 
+}
+
+.fix_img_30013003{
+    position: absolute;
+    top: 68%;
+    left: 42%; 
+}
+
+.fix_img_30013004{
+    position: absolute;
+    top: 68%;
+    left: 77%;
 }

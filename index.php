@@ -27,7 +27,7 @@
       <div class="header-title">May<span>Books</span></div>
       <div class="profile">
         <div class="user-profile">
-          <img src="https://randomuser.me/api/portraits/women/63.jpg" alt="" class="user-img">
+          <img src="./assets/image_system/profile2.jpg" alt="" class="user-img">
         </div>
         <div class="profile-menu">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
@@ -61,7 +61,7 @@
               </fieldset>
               <span class="book-voters">1.987 voters</span>
             </div>
-            <div class="book-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+            <div class="book-sum">นิทาน ตำนาน เรื่องเล่าพื้นบ้าน (ภาคใต้)</div>
             <a href="./book1/" style="text-decoration: none;">
               <div class="book-see">อ่านหนังสือ</div>
             </a>
@@ -73,7 +73,7 @@
           </div>
           <div class="book-content">
             <div class="book-title">หมาป่ากับต้นไม้ศักดิ์สิทธิ์</div>
-            <div class="book-author">by Claudia Gray</div>
+            <div class="book-author">by ปาริชาต เกื้อทอง</div>
             <div class="rate">
               <fieldset class="rating blue">
                 <input type="checkbox" id="star6" name="rating" value="5" />
@@ -89,7 +89,7 @@
               </fieldset>
               <span class="book-voters">1.987 voters</span>
             </div>
-            <div class="book-sum">The hunt for each splinter of Paul's soul sends Marguerite racing through a war-torn San Francisco.</div>
+            <div class="book-sum">นิทาน ตำนาน เรื่องเล่าพื้นบ้าน (ภาคใต้)</div>
             <a href="./book5/" style="text-decoration: none;">
               <div class="book-see">อ่านหนังสือ</div>
             </a>
@@ -101,7 +101,7 @@
           </div>
           <div class="book-content">
             <div class="book-title">เกาะหนู เกาะแมว</div>
-            <div class="book-author">by Ruth Ozeki</div>
+            <div class="book-author">by ปาริชาต เกื้อทอง</div>
             <div class="rate">
               <fieldset class="rating purple">
                 <input type="checkbox" id="star11" name="rating" value="5" />
@@ -117,7 +117,7 @@
               </fieldset>
               <span class="book-voters">1.987 voters</span>
             </div>
-            <div class="book-sum">In Tokyo, sixteen-year-old Nao has decided there’s only one escape from her aching loneliness and her classmates’ bullying.</div>
+            <div class="book-sum">นิทาน ตำนาน เรื่องเล่าพื้นบ้าน (ภาคใต้)</div>
             <a href="./book2/" style="text-decoration: none;">
               <div class="book-see">อ่านหนังสือ</div>
             </a>
@@ -129,7 +129,7 @@
           </div>
           <div class="book-content">
             <div class="book-title">นายแรง</div>
-            <div class="book-author">by F.Scott Fitzgerald</div>
+            <div class="book-author">by ปาริชาต เกื้อทอง</div>
             <div class="rate">
               <fieldset class="rating yellow">
                 <input type="checkbox" id="star16" name="rating" value="5" />
@@ -145,7 +145,7 @@
               </fieldset>
               <span class="book-voters">1.987 voters</span>
             </div>
-            <div class="book-sum">The Great Gatsby, F. Scott Fitzgerald’s third book, stands as the supreme achievement of his career.</div>
+            <div class="book-sum">นิทาน ตำนาน เรื่องเล่าพื้นบ้าน (ภาคใต้)</div>
             <a href="./book4/" style="text-decoration: none;">
               <div class="book-see">อ่านหนังสือ</div>
             </a>
@@ -157,7 +157,7 @@
           </div>
           <div class="book-content">
             <div class="book-title">เขาทะนาน</div>
-            <div class="book-author">by Jojo Moyes</div>
+            <div class="book-author">by ปาริชาต เกื้อทอง</div>
             <div class="rate">
               <fieldset class="rating dark-purp">
                 <input type="checkbox" id="star21" name="rating" value="5" />
@@ -173,8 +173,10 @@
               </fieldset>
               <span class="book-voters">1.987 voters</span>
             </div>
-            <div class="book-sum">Louisa Clark is no longer just an ordinary girl living an ordinary life. After the transformative six months spent.</div>
-            <div class="book-see book-purple">See The Book</div>
+            <div class="book-sum">นิทาน ตำนาน เรื่องเล่าพื้นบ้าน (ภาคใต้)</div>
+            <a href="./book3/" style="text-decoration: none;">
+              <div class="book-see">อ่านหนังสือ</div>
+            </a>
           </div>
         </div>
       </div>
@@ -284,7 +286,11 @@
                   </fieldset>
                   <span class="book-voters card-vote">1.987 voters</span>
                 </div>
-                <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+                <div class="book-sum card-sum">
+                  “นายแรง” คือบรรพบุรุษของผู้คนในลุ่มน้ำทะเลสาบสงขลา (สงขลา นครศรีธรรมราช และพัทลุง) เขาเกิดมาพร้อมกับพลังวิเศษ และพร้อมกันนั้นพ่อกับแม่ก็พยายามที่จะกำจัดนายแรง พ่อกับแม่จะทำสำเร็จหรือไม่ และนายแรงมีพลังวิเศษอะไร….
+                  <br><br>
+                  ติดตามและอ่านต่อได้ใน หนังสือนิทานพื้นบ้านอิเล็กทรอนิกส์แบบมีปฏิสัมพันธ์ เรื่อง “นายแรง”
+                </div>
               </div>
             </div>
             <!-- <div class="likes">
@@ -302,7 +308,7 @@
           </div>
           <div class="book-card">
             <div class="content-wrapper">
-              <img src="./assets/image_3/back.png" alt="" class="book-card-img">
+              <img src="./assets/image_3/26.png" alt="" class="book-card-img">
               <div class="card-content">
                 <div class="book-name">เขาทะนาน</div>
                 <div class="book-by">by Angie Cruz</div>
@@ -321,7 +327,11 @@
                   </fieldset>
                   <span class="book-voters card-vote">1.987 voters</span>
                 </div>
-                <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+                <div class="book-sum card-sum">
+                  นิทานพื้นบ้านเรื่อง “เขาทะนาน” เป็นเรื่องราวของเด็กชายที่ได้ดิบได้ดีแล้วลืมบ้านเกิด อีกทั้งยังเป็นลูกที่เนรคุณไม่รู้จักค่าน้ำนม คุณคิดว่า คนที่เนรคุณต่อผู้มีพระคุณจะมีจุดจบอย่างไร….
+                  <br><br>
+                  ติดตามและอ่านต่อได้ใน หนังสือนิทานพื้นบ้านอิเล็กทรอนิกส์แบบมีปฏิสัมพันธ์ เรื่อง “เขาทะนาน”
+                </div>
               </div>
             </div>
             <!-- <div class="likes">
@@ -352,7 +362,11 @@
                   </fieldset>
                   <span class="book-voters card-vote">1.987 voters</span>
                 </div>
-                <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+                <div class="book-sum card-sum">
+                  นิทานพื้นบ้านเรื่อง “กล้วยสองปลี” เป็นเรื่องราวของไชชายยาจก ที่ไปหลงรักลูกสาวเศรษฐี แต่ด้วยฐานะที่แตกต่างกัน จึงเป็นอุปสรรคอันใหญ่หลวง คุณคิดว่าไชชายได้ลงเอยกับลูกสาวเศรษฐีหรือไม่ และ “กล้วยสองปลี” ไปเกี่ยวข้องอะไร พร้อมไขปริศนาไปพร้อมกัน….
+                  <br>
+                  ติดตามและอ่านต่อได้ใน หนังสือนิทานพื้นบ้านอิเล็กทรอนิกส์แบบมีปฏิสัมพันธ์ เรื่อง “กล้วยสองปลี”
+                </div>
               </div>
             </div>
             <!-- <div class="likes">
@@ -386,7 +400,11 @@
                   </fieldset>
                   <span class="book-voters card-vote">1.987 voters</span>
                 </div>
-                <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+                <div class="book-sum card-sum">
+                  “เกาะหนู เกาะแมว” อีกหนึ่งนิทานที่เล่าขานกันมาอย่างยาวนาน ซึ่งหลายคนอาจจะเคยได้ยินชื่อเสียงกันมาแล้วบ้าง เพราะเป็นเกาะประจำจังหวัดสงขลา แต่คุณรู่ไหมว่าเกาะแห่งนี้มีตำนานอภินิหารอยู่…. สิ่งนั้นคืออะไร ?
+                  <br><br>
+                  ติดตามและอ่านต่อได้ใน หนังสือนิทานพื้นบ้านอิเล็กทรอนิกส์แบบมีปฏิสัมพันธ์ เรื่อง “เกาะหนู เกาะแมว”
+                </div>
               </div>
             </div>
             <!-- <div class="likes">
@@ -423,7 +441,11 @@
                   </fieldset>
                   <span class="book-voters card-vote">1.987 voters</span>
                 </div>
-                <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+                <div class="book-sum card-sum">
+                  นิทานพื้นบ้านเรื่อง “หมาป่ากับต้นไม้ศักดิ์สิทธิ์” เป็นเรื่องราวของหมาป่าที่ไม่มีความรู้จักพอ และไม่รู้จักบุญคุณของผู้มีพระคุณ จึงทำให้ต้องรับผลกรรมจากความโลภและความอกตัญญู คุณคิดว่าหมาป่าจะได้รับผลกรรมอย่างไร….
+                  <br><br>
+                  ติดตามและอ่านต่อได้ใน หนังสือนิทานพื้นบ้านอิเล็กทรอนิกส์แบบมีปฏิสัมพันธ์ เรื่อง “หมาป่ากับต้นไม้ศักดิ์สิทธิ์”
+                </div>
               </div>
             </div>
             <!-- <div class="likes">
